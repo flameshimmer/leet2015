@@ -16,7 +16,6 @@ namespace Solution1{
 	}
 
 	vector<int> twoSum(vector<int> &numbers, int target) {
-		//print(numbers);
 		vector<int> result;
 		int len = numbers.size();
 
@@ -56,22 +55,22 @@ namespace Solution1{
 				second--;
 			}
 		}
-		//print(result);
+
 		return result;
 	}
 
 	void TwoSum()
 	{
-		//twoSum(createVector({ 2, 7, 11, 15 }), 9);
+		print(twoSum(createVector({ 2, 7, 11, 15 }), 9));
 		
 		// Error1: found out the output index is the re-arranged index, not the original index
 		// Error2: boolean does not name a type (should use bool)
 		// Error3: Line 21: invalid use of non-static member function (the comparason function will need to be static)
 		// Error4: The result is looking for 1 based index. I returned 0 based index result
-		//twoSum(createVector({ 3, 2, 4 }), 6);
+		print(twoSum(createVector({ 3, 2, 4 }), 6));
 
 		// Error5: Did not notice the result is requiring first index must smaller than the second.
 		// Error6: Reversed the swapping condition. 
-		twoSum(createVector({ -1, -2, -3, -4, -5 }), -8);
+		print(twoSum(createVector({ -1, -2, -3, -4, -5 }), -8));
 	}
 }
