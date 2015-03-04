@@ -47,5 +47,11 @@
     <ClCompile Include="Helpers.cpp">
       <Filter>Helpers</Filter>
     </ClCompile>
+    <ClCompile Include="3SumClosest.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="4Sum.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

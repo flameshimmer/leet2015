@@ -14,6 +14,7 @@
 #include <iostream>
 #include <algorithm>
 #include <initializer_list>
+#include <cMath>
 using namespace std;
 
 
@@ -22,10 +23,8 @@ namespace Solution1
 {
 	void TwoSum();
 	void ThreeSum();
-
-
-
-
+	void ThreeSumClosest();
+	void FourSum();
 
 };
 
@@ -35,6 +34,7 @@ bool compare_STB(int i, int j);
 bool compare_BTS(int i, int j);
 void print(vector<int> input);
 void print(vector<vector<int>> input);
+void print(int input);
 
 
 // Template helper functions

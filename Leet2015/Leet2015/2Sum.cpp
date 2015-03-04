@@ -23,7 +23,7 @@ namespace Solution1{
 		if (len < 2) { return result; }
 
 		vector<pair<int, int>> sortedData;
-		for (int i = 0; i < numbers.size(); i++)
+		for (int i = 0; i < len; i++)
 		{
 			sortedData.push_back(make_pair(numbers[i], i+1));
 		}

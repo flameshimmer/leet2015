@@ -34,3 +34,8 @@ void print(vector<vector<int>> input)
 		print(i);
 	}
 }
+
+void print(int input)
+{
+	cout << "integer: " << input << "\n";
+}

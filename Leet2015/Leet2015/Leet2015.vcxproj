@@ -85,6 +85,8 @@
   <ItemGroup>
     <ClCompile Include="2Sum.cpp" />
     <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="3SumClosest.cpp" />
+    <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="Leet2015.cpp" />
     <ClCompile Include="stdafx.cpp">
