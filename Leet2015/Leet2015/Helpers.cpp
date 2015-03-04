@@ -26,3 +26,11 @@ void print(vector<int> input)
 	}
 	cout << input[inputSize - 1] << "\n";
 }
+
+void print(vector<vector<int>> input)
+{
+	for (vector<int> i : input)
+	{
+		print(i);
+	}
+}

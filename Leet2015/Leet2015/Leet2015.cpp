@@ -5,9 +5,8 @@
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//Solution1::ThreeSum();
-
-	Solution1::TwoSum();
+	//Solution1::TwoSum();
+	Solution1::ThreeSum();
 
 
 

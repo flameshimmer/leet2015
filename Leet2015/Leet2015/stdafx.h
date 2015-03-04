@@ -34,6 +34,7 @@ namespace Solution1
 bool compare_STB(int i, int j);
 bool compare_BTS(int i, int j);
 void print(vector<int> input);
+void print(vector<vector<int>> input);
 
 
 // Template helper functions
