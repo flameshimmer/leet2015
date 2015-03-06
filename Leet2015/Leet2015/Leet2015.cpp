@@ -8,7 +8,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::TwoSum();
 	//Solution1::ThreeSum();
 	//Solution1::ThreeSumClosest();
-	Solution1::FourSum();
+	//Solution1::FourSum();
+
+	//Solution1::AddTwoNumbers();
+	//Solution1::AddBinary();
+	Solution1::Anagrams();
 
 
 

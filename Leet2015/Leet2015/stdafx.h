@@ -11,10 +11,13 @@
 // TODO: reference additional headers your program requires here
 #include <windows.h>
 #include <vector>
+#include <string>
 #include <iostream>
 #include <algorithm>
 #include <initializer_list>
 #include <cMath>
+#include<unordered_map>
+#include<unordered_set>
 using namespace std;
 
 
@@ -25,7 +28,11 @@ namespace Solution1
 	void ThreeSum();
 	void ThreeSumClosest();
 	void FourSum();
+	
+	void AddTwoNumbers();
+	void AddBinary();
 
+	void Anagrams();
 };
 
 
@@ -36,6 +43,7 @@ void print(vector<int> input);
 void print(vector<vector<int>> input);
 void print(int input);
 
+void print(vector<string> input);
 
 // Template helper functions
 template <class T>
@@ -49,5 +57,16 @@ vector<T> createVector(std::initializer_list<T> list)
 	return myVector;
 }
 
+
+// helper class
+// List Node
+struct ListNode {
+	int val;
+	ListNode *next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+ListNode* createList(initializer_list<int> list);
+void deleteList(ListNode* list);
+void print(ListNode* list);
 
 
