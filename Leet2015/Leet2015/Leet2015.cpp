@@ -12,7 +12,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//Solution1::AddTwoNumbers();
 	//Solution1::AddBinary();
-	Solution1::Anagrams();
+	//Solution1::Anagrams();
+	//Solution1::LongestSubStringWithoutRepeatingCharacters();
+	//Solution1::LongestPalindromeSubString();
+	Solution1::LongestCommonPrefix();
 
 
 

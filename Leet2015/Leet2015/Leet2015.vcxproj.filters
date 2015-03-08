@@ -65,5 +65,14 @@
     <ClCompile Include="Anagrams.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPalindromicSubString.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonPrefix.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -33,6 +33,9 @@ namespace Solution1
 	void AddBinary();
 
 	void Anagrams();
+	void LongestSubStringWithoutRepeatingCharacters();
+	void LongestPalindromeSubString();
+	void LongestCommonPrefix();
 };
 
 
@@ -44,6 +47,8 @@ void print(vector<vector<int>> input);
 void print(int input);
 
 void print(vector<string> input);
+void print(string input);
+
 
 // Template helper functions
 template <class T>
