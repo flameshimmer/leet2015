@@ -15,7 +15,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::Anagrams();
 	//Solution1::LongestSubStringWithoutRepeatingCharacters();
 	//Solution1::LongestPalindromeSubString();
-	Solution1::LongestCommonPrefix();
+	//Solution1::LongestCommonPrefix();
+	//Solution1::LongestValidParentheses();
+	//Solution1::LongestConsecutiveSequence();
+	Solution1::SearchInRotatedSortedArray();
 
 
 

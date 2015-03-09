@@ -74,5 +74,14 @@
     <ClCompile Include="LongestCommonPrefix.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="LongestValidParentheses.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestConsecutiveSequence.cpp.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInRotatedSortedArray.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

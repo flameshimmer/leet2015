@@ -16,8 +16,10 @@
 #include <algorithm>
 #include <initializer_list>
 #include <cMath>
-#include<unordered_map>
-#include<unordered_set>
+#include <unordered_map>
+#include <unordered_set>
+#include <stack>
+#include <map>
 using namespace std;
 
 
@@ -36,6 +38,10 @@ namespace Solution1
 	void LongestSubStringWithoutRepeatingCharacters();
 	void LongestPalindromeSubString();
 	void LongestCommonPrefix();
+	void LongestValidParentheses();
+	void LongestConsecutiveSequence();
+	
+	void SearchInRotatedSortedArray();
 };
 
 
