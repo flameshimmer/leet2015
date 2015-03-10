@@ -29,11 +29,11 @@ namespace Solution1
 			{
 				return mid;
 			}
-			else if ((A[start] < A[mid] && target > A[start] && target < A[mid]) || (A[mid] < A[end] && (target < A[mid] || target > A[end])))
+			else if ((A[start] < A[mid] && target >= A[start] && target < A[mid]) || (A[mid] < A[end] && (target < A[mid] || target > A[end])))
 			{
 				end = mid - 1;			
 			}
-			else if ((A[mid] < A[end] && target > A[mid] && target < A[end]) || (A[start] < A[mid] && (target > A[mid] || target < A[start])))
+			else if ((A[mid] < A[end] && target >= A[mid] && target < A[end]) || (A[start] < A[mid] && (target > A[mid] || target < A[start])))
 			{
 				start = mid + 1;
 			}

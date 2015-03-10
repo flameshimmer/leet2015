@@ -83,5 +83,8 @@
     <ClCompile Include="SearchInRotatedSortedArray.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseInteger.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

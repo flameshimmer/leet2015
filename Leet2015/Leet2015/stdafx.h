@@ -42,6 +42,8 @@ namespace Solution1
 	void LongestConsecutiveSequence();
 	
 	void SearchInRotatedSortedArray();
+
+	void ReverseInteger();
 };
 
 
