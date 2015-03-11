@@ -20,6 +20,7 @@
 #include <unordered_set>
 #include <stack>
 #include <map>
+#include <stdint.h>
 using namespace std;
 
 
@@ -44,18 +45,27 @@ namespace Solution1
 	void SearchInRotatedSortedArray();
 
 	void ReverseInteger();
+	void ReverseBits();
 };
 
 
 // Helper functions
+// int
 bool compare_STB(int i, int j);
 bool compare_BTS(int i, int j);
 void print(vector<int> input);
 void print(vector<vector<int>> input);
 void print(int input);
 
+// unsigned int
+void print(uint32_t input);
+
+// string
 void print(vector<string> input);
 void print(string input);
+
+// bits
+void printBits(uint32_t input);
 
 
 // Template helper functions

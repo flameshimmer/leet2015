@@ -60,3 +60,25 @@ void print(string input)
 {
 	cout << "string: " << input << "\n";
 }
+
+void print(uint32_t input)
+{
+	cout << "Unsigned 32 bits integer: " << input << "\n";
+}
+
+void printBits(uint32_t input)
+{
+	cout << "Binary: \n";
+	for (int i = 31; i >=0; i--)
+	{
+		if (input & (1 >> i))
+		{
+			cout << "1 ";
+		}
+		else
+		{
+			cout << "0";
+		}
+	}
+	cout << "\n";
+}
