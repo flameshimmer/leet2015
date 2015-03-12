@@ -48,6 +48,8 @@ namespace Solution1
 	void ReverseBits();
 	void ReverseWordsInAString();
 	void ReverseWordsInAStringII();
+	void ReverseLinkedListII();
+	void ReverseNodesInKGroup();
 };
 
 

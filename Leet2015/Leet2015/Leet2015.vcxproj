@@ -100,6 +100,8 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ReverseLinkedListII.cpp" />
+    <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="ReverseWordsInAString.cpp" />
     <ClCompile Include="ReverseWordsInAStringII.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />

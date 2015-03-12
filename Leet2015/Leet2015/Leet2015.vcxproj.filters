@@ -95,5 +95,11 @@
     <ClCompile Include="ReverseWordsInAStringII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseLinkedListII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseNodesInKGroup.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
