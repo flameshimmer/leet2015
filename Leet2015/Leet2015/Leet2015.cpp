@@ -20,7 +20,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LongestConsecutiveSequence();
 	//Solution1::SearchInRotatedSortedArray();
 	//Solution1::ReverseInteger();
-	Solution1::ReverseBits();
+	//Solution1::ReverseBits();
+	Solution1::ReverseWordsInAString();
 
 
 

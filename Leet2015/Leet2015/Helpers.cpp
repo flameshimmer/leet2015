@@ -61,6 +61,17 @@ void print(string input)
 	cout << "string: " << input << "\n";
 }
 
+void printWithSpace(string input)
+{
+	cout << "string with space: \n";
+	for (char c : input)
+	{
+		if (c == ' ') { c = '.'; }
+		cout << c;
+	}
+	cout << "\n";
+}
+
 void print(uint32_t input)
 {
 	cout << "Unsigned 32 bits integer: " << input << "\n";

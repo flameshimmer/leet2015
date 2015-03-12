@@ -89,5 +89,8 @@
     <ClCompile Include="ReverseBits.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseWordsInAString.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

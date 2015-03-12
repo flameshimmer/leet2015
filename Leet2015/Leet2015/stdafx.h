@@ -46,6 +46,7 @@ namespace Solution1
 
 	void ReverseInteger();
 	void ReverseBits();
+	void ReverseWordsInAString();
 };
 
 
@@ -63,6 +64,7 @@ void print(uint32_t input);
 // string
 void print(vector<string> input);
 void print(string input);
+void printWithSpace(string input);
 
 // bits
 void printBits(uint32_t input);

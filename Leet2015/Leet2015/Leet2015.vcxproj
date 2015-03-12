@@ -100,6 +100,7 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ReverseWordsInAString.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
