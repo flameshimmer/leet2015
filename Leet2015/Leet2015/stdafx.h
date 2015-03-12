@@ -47,6 +47,7 @@ namespace Solution1
 	void ReverseInteger();
 	void ReverseBits();
 	void ReverseWordsInAString();
+	void ReverseWordsInAStringII();
 };
 
 

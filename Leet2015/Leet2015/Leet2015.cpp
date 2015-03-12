@@ -21,9 +21,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SearchInRotatedSortedArray();
 	//Solution1::ReverseInteger();
 	//Solution1::ReverseBits();
-	Solution1::ReverseWordsInAString();
-
-
+	//Solution1::ReverseWordsInAString();
+	Solution1::ReverseWordsInAStringII();
 
 	// End program routine
 	printf("\n\nPress any key to exit ...\n\n");	

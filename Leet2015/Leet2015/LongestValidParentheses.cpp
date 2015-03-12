@@ -15,7 +15,7 @@ namespace Solution1
 		int result = 0;
 		stack<pair<int, bool>> myStack; // pair content is <index, isLeftParenthese>
 		s = ')' + s;
-		for (int i = 0; i < s.length(); i++)
+		for (unsigned int i = 0; i < s.length(); i++)
 		{
 			if (s[i] == '(')
 			{
@@ -47,8 +47,8 @@ namespace Solution1
 
 		int result = 0;
 		stack<pair<int, bool>> myStack; // pair content is <index, isLeftParenthese>
-		
-		for (int i = 0; i < s.length(); i++)
+
+		for (unsigned int i = 0; i < s.length(); i++)
 		{
 			if (s[i] == '(')
 			{

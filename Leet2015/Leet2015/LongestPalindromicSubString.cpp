@@ -8,7 +8,8 @@ namespace Solution1
 {
 	string getPalindromeLength(string s, int left, int right)
 	{
-		while (left >= 0 && right < s.length())
+		int len = s.length();
+		while (left >= 0 && right < len)
 		{
 			if (s[left] != s[right])
 			{
@@ -44,11 +45,12 @@ namespace Solution1
 		}
 		
 		string longest = "";
-		for (int i = 0; i < s.length(); i++)
+		int len = s.length();
+		for (int i = 0; i < len; i++)
 		{
 			int curLen = longest.length();		
 			longest = getLonger(longest, getPalindromeLength(s, i, i));
-			if (i + 1 < s.length())
+			if (i + 1 < len)
 			{
 				longest = getLonger(longest, getPalindromeLength(s, i, i + 1));
 			}			

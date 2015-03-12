@@ -18,7 +18,7 @@ namespace Solution1
 		}
 
 		string target = strs[0];
-		for (int i = 0; i < target.length(); i++)
+		for (unsigned int i = 0; i < target.length(); i++)
 		{
 			char c = target[i];
 			for (int j = 1; j < len; j++)
