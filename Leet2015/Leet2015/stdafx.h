@@ -51,6 +51,10 @@ namespace Solution1
 	void ReverseWordsInAStringII();
 	void ReverseLinkedListII();
 	void ReverseNodesInKGroup();
+
+	void RomanToInteger();
+	void IntegerToRoman();
+
 };
 
 

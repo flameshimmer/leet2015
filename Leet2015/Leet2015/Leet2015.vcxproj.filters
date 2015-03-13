@@ -104,5 +104,11 @@
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="IntegerToRoman.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RomanToInteger.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

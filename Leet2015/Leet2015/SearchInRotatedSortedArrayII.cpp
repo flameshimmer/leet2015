@@ -56,9 +56,9 @@ namespace Solution1
 		// The trick is when the duplication is impacting the determination of which range is not impacted by the rotation.
 		// To fix this is to advance start index to avoid this kind of situation.
 		int input2[4] = {1, 1, 3, 1};
-		int len = 4;
+		len = 4;
 		print(input2, len);
-		int target = 3;
+		target = 3;
 		print(search(input2, len, target));
 	}
 }

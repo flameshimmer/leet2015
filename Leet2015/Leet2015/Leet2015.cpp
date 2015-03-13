@@ -22,7 +22,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LongestConsecutiveSequence();
 
 	//Solution1::SearchInRotatedSortedArray();
-	Solution1::SearchInRotatedSortedArrayII();
+	//Solution1::SearchInRotatedSortedArrayII();
 	
 	//Solution1::ReverseInteger();
 	//Solution1::ReverseBits();
@@ -30,6 +30,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ReverseWordsInAStringII();
 	//Solution1::ReverseLinkedListII();
 	//Solution1::ReverseNodesInKGroup();
+
+	//Solution1::RomanToInteger();
+	Solution1::IntegerToRoman();
 
 	// End program routine
 	printf("\n\nPress any key to exit ...\n\n");	
