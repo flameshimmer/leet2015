@@ -43,6 +43,7 @@ namespace Solution1
 	void LongestConsecutiveSequence();
 	
 	void SearchInRotatedSortedArray();
+	void SearchInRotatedSortedArrayII();
 
 	void ReverseInteger();
 	void ReverseBits();
@@ -57,12 +58,16 @@ namespace Solution1
 // int
 bool compare_STB(int i, int j);
 bool compare_BTS(int i, int j);
+void print(int input[], int len);
 void print(vector<int> input);
 void print(vector<vector<int>> input);
 void print(int input);
 
 // unsigned int
 void print(uint32_t input);
+
+// boolean
+void print(bool input);
 
 // string
 void print(vector<string> input);

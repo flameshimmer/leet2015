@@ -11,6 +11,16 @@ bool compare_BTS(int i, int j)
 	return i > j;
 }
 
+void print(int input[], int len)
+{
+	cout << "\nInteger array: \n";
+	for (int i = 0; i < len - 1; i++)
+	{
+		cout << input[i] << ", ";
+	}
+	cout << input[len - 1] << "\n";
+}
+
 void print(vector<int> input)
 {
 	cout << "\nVector: ";
@@ -75,6 +85,11 @@ void printWithSpace(string input)
 void print(uint32_t input)
 {
 	cout << "Unsigned 32 bits integer: " << input << "\n";
+}
+
+void print(bool input)
+{
+	cout << "\nBoolean: " << (input ? "true" : "false") << "\n";
 }
 
 void printBits(uint32_t input)
