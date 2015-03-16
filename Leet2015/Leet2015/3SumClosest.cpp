@@ -53,7 +53,6 @@ namespace Solution1
 
 	void ThreeSumClosest()
 	{
-		print(threeSumClosest(createVector({ -1, 2, 1, -4 }), 1));
-		
+		print(threeSumClosest(createVector({ -1, 2, 1, -4 }), 1));		
 	}
 };

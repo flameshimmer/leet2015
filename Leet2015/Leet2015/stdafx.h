@@ -55,6 +55,9 @@ namespace Solution1
 	void RomanToInteger();
 	void IntegerToRoman();
 
+	void WordBreak();
+	void WordBreakII();
+
 };
 
 

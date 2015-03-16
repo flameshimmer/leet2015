@@ -77,9 +77,6 @@
     <ClCompile Include="LongestValidParentheses.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
-    <ClCompile Include="LongestConsecutiveSequence.cpp.cpp">
-      <Filter>Solution1</Filter>
-    </ClCompile>
     <ClCompile Include="SearchInRotatedSortedArray.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
@@ -108,6 +105,15 @@
       <Filter>Solution1</Filter>
     </ClCompile>
     <ClCompile Include="RomanToInteger.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="WordBreak.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="WordBreakII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestConsecutiveSequence.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
   </ItemGroup>

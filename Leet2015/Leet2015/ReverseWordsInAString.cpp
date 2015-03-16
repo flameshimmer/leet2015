@@ -130,8 +130,8 @@ namespace Solution1
 		print(input);
 
 		// Error: forget to copy compacted string back on input string
-		// Error: should do the copy before the final revers
-		// Error: note that in the final reverse, we are reversing the compacted string so the length has changed.
+		// Error: should do the copy before the final reversal
+		// Error: note that in the final reversal, we are reversing the compacted string so the length has changed.
 		// Error: early return based on if (input.length() < 2){return;} would not work since this will miss the string compact logic
 		input = " ";
 		reverseWords(input);

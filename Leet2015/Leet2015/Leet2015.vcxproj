@@ -95,7 +95,7 @@
     <ClCompile Include="Leet2015.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
-    <ClCompile Include="LongestConsecutiveSequence.cpp.cpp" />
+    <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="LongestPalindromicSubString.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
@@ -112,6 +112,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="WordBreak.cpp" />
+    <ClCompile Include="WordBreakII.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

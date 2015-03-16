@@ -32,7 +32,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ReverseNodesInKGroup();
 
 	//Solution1::RomanToInteger();
-	Solution1::IntegerToRoman();
+	//Solution1::IntegerToRoman();
+
+	//Solution1::WordBreak();
+	Solution1::WordBreakII();
 
 	// End program routine
 	printf("\n\nPress any key to exit ...\n\n");	
