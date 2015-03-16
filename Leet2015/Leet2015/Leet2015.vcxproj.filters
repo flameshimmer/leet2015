@@ -116,5 +116,17 @@
     <ClCompile Include="LongestConsecutiveSequence.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="NumberOf1Bits.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigZagConversion.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialTrailingZeroes.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

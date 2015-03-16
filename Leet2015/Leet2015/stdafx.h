@@ -58,6 +58,12 @@ namespace Solution1
 	void WordBreak();
 	void WordBreakII();
 
+	void NumberOf1Bits();
+	void PlusOne();
+	void ZigZagConversion();
+	void FactorialTrailingZeroes();
+
+
 };
 
 

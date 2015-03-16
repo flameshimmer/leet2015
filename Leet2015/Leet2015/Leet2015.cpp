@@ -35,7 +35,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::IntegerToRoman();
 
 	//Solution1::WordBreak();
-	Solution1::WordBreakII();
+	//Solution1::WordBreakII();
+
+	//Solution1::NumberOf1Bits();
+	//Solution1::PlusOne();
+	//Solution1::ZigZagConversion();
+	Solution1::FactorialTrailingZeroes();
+
 
 	// End program routine
 	printf("\n\nPress any key to exit ...\n\n");	
