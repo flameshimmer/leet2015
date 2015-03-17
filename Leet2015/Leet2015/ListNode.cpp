@@ -35,6 +35,30 @@ void deleteList(ListNode* list)
 	}
 }
 
+ListNode* getListNodeAt(ListNode* list, int index)
+{
+	if (!list || index < 0){ return NULL; }
+	
+	ListNode* cur = list;
+	while (cur)
+	{
+		if (index <= 0) { break; }
+		index--;
+		cur = cur->next;
+	}
+	return cur;
+}
+
+ListNode* getLastNode(ListNode* list)
+{
+	if (!list){ return NULL; }
+	while (list->next)
+	{
+		list = list->next;
+	}
+	return list;
+}
+
 void print(ListNode* list)
 {
 	cout << "ListNode: \n";
@@ -47,5 +71,13 @@ void print(ListNode* list)
 	cout << list->val << "\n";
 }
 
+ListNode* createListWithCycle(initializer_list<int> listValue, int indexPointFrom, int indexPointTo)
+{
+	ListNode* list = createList(listValue);
+	ListNode* nodeAtPointFrom = getListNodeAt(list, indexPointFrom);
+	ListNode* nodeAtPointTo = getListNodeAt(list, indexPointTo);
+	nodeAtPointFrom->next = nodeAtPointTo;
+	return list;
+}
 
 

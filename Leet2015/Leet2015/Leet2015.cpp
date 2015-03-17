@@ -40,7 +40,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::NumberOf1Bits();
 	//Solution1::PlusOne();
 	//Solution1::ZigZagConversion();
-	Solution1::FactorialTrailingZeroes();
+	//Solution1::FactorialTrailingZeroes();
+
+	//Solution1::PascalsTriangle();
+	//Solution1::PascalsTriangleII();
+
+	//Solution1::LinkedListCycle();
+	Solution1::LinkedListCycleII();
 
 
 	// End program routine

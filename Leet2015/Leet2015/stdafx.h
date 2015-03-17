@@ -63,7 +63,11 @@ namespace Solution1
 	void ZigZagConversion();
 	void FactorialTrailingZeroes();
 
+	void PascalsTriangle();
+	void PascalsTriangleII();
 
+	void LinkedListCycle();
+	void LinkedListCycleII();
 };
 
 
@@ -112,7 +116,10 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 ListNode* createList(initializer_list<int> list);
+ListNode* getListNodeAt(ListNode* list, int index);
+ListNode* getLastNode(ListNode* list);
 void deleteList(ListNode* list);
 void print(ListNode* list);
+ListNode* createListWithCycle(initializer_list<int> listValue, int indexPointFrom, int indexPointTo);
 
 

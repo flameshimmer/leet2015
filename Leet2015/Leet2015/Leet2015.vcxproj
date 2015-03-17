@@ -94,6 +94,8 @@
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="Leet2015.cpp" />
+    <ClCompile Include="LinkedListCycle.cpp" />
+    <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestConsecutiveSequence.cpp" />
@@ -101,6 +103,8 @@
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
+    <ClCompile Include="PascalsTriangle.cpp" />
+    <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />

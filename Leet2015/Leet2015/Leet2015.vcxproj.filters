@@ -128,5 +128,17 @@
     <ClCompile Include="FactorialTrailingZeroes.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="PascalsTriangle.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalsTriangleII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListCycle.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListCycleII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
