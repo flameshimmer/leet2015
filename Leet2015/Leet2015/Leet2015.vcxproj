@@ -113,6 +113,8 @@
     <ClCompile Include="ReverseWordsInAString.cpp" />
     <ClCompile Include="ReverseWordsInAStringII.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
+    <ClCompile Include="RotateArray.cpp" />
+    <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp" />
     <ClCompile Include="stdafx.cpp">

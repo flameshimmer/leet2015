@@ -140,5 +140,11 @@
     <ClCompile Include="LinkedListCycleII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="RotateArray.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateImage.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

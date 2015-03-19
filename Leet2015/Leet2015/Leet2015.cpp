@@ -46,7 +46,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::PascalsTriangleII();
 
 	//Solution1::LinkedListCycle();
-	Solution1::LinkedListCycleII();
+	//Solution1::LinkedListCycleII();
+	
+	//Solution1::RotateArray();
+	Solution1::RotateImage();
 
 
 	// End program routine
