@@ -49,7 +49,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LinkedListCycleII();
 	
 	//Solution1::RotateArray();
-	Solution1::RotateImage();
+	//Solution1::RotateImage();
+	Solution1::RotateList();
 
 
 	// End program routine

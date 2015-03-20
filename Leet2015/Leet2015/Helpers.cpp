@@ -55,9 +55,22 @@ void print(vector<string> input)
 
 void print(vector<vector<int>> input)
 {
-	for (vector<int> i : input)
+	cout << "\nMatrix: \n";
+	string div = "";
+	for (int i = 0; i < input[0].size(); i++)
 	{
-		print(i);
+		div += "-----";
+	}
+	div += '-';
+	cout << div << "\n";
+	for (vector<int> v : input)
+	{
+		for (int i = 0; i < v.size(); i++)
+		{			
+			cout << "| " << setw(2) << v[i] << " ";
+		}
+		cout << "|\n";
+		cout << div << "\n";
 	}
 }
 

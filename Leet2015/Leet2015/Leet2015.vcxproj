@@ -115,6 +115,7 @@
     <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
+    <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp" />
     <ClCompile Include="stdafx.cpp">

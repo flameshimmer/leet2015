@@ -13,6 +13,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <iomanip>
 #include <algorithm>
 #include <initializer_list>
 #include <cMath>
@@ -71,6 +72,7 @@ namespace Solution1
 
 	void RotateArray();
 	void RotateImage();
+	void RotateList();
 };
 
 
@@ -109,7 +111,6 @@ vector<T> createVector(std::initializer_list<T> list)
 	}
 	return myVector;
 }
-
 
 // helper class
 // List Node

@@ -146,5 +146,8 @@
     <ClCompile Include="RotateImage.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="RotateList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
