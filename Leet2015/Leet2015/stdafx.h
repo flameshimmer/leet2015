@@ -70,11 +70,12 @@ namespace Solution1
 	void LinkedListCycle();
 	void LinkedListCycleII();
 
-
 	void RotateArray();
 	void RotateImage();
 	void RotateList();
 	void FirstMissingPositive();
+	void FindMinimumInRotatedSortedArray();
+	void FindMinimumInRotatedSortedArrayII();
 };
 
 

@@ -57,7 +57,7 @@ void print(vector<vector<int>> input)
 {
 	cout << "\nMatrix: \n";
 	string div = "";
-	for (int i = 0; i < input[0].size(); i++)
+	for (unsigned int i = 0; i < input[0].size(); i++)
 	{
 		div += "-----";
 	}
@@ -65,7 +65,7 @@ void print(vector<vector<int>> input)
 	cout << div << "\n";
 	for (vector<int> v : input)
 	{
-		for (int i = 0; i < v.size(); i++)
+		for (unsigned int i = 0; i < v.size(); i++)
 		{			
 			cout << "| " << setw(2) << v[i] << " ";
 		}

@@ -52,7 +52,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::RotateImage();
 	//Solution1::RotateList();
 
-    Solution1::FirstMissingPositive();
+    //Solution1::FirstMissingPositive();
+	//Solution1::FindMinimumInRotatedSortedArray();
+	Solution1::FindMinimumInRotatedSortedArrayII();
 
 
 	// End program routine
