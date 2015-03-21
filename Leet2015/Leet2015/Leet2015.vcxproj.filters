@@ -158,5 +158,8 @@
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="UniquePaths.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

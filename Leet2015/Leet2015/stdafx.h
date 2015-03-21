@@ -9,6 +9,7 @@
 #include <tchar.h>
 
 // TODO: reference additional headers your program requires here
+#include <limits> // for printing double
 #include <windows.h>
 #include <vector>
 #include <string>
@@ -76,6 +77,10 @@ namespace Solution1
 	void FirstMissingPositive();
 	void FindMinimumInRotatedSortedArray();
 	void FindMinimumInRotatedSortedArrayII();
+
+	//3/21/2015
+	void UniquePaths();
+
 };
 
 

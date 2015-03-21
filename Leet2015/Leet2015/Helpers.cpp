@@ -39,7 +39,7 @@ void print(vector<int> input)
 
 void print(vector<string> input)
 {
-	cout << "\nVector: ";
+	cout << "\nString Vector: ";
 	int inputSize = input.size();
 	if (inputSize == 0) {
 		cout << "\n";
@@ -48,7 +48,7 @@ void print(vector<string> input)
 
 	for (int i = 0; i < inputSize - 1; i++)
 	{
-		cout << input[i] << ",";
+		cout << input[i] << "\n";
 	}
 	cout << input[inputSize - 1] << "\n";
 }
