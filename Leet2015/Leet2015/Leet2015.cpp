@@ -50,9 +50,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//Solution1::RotateArray();
 	//Solution1::RotateImage();
-	Solution1::RotateList();
+	//Solution1::RotateList();
 
-//	Solution1::FirstMissingPositive();
+    Solution1::FirstMissingPositive();
 
 
 	// End program routine

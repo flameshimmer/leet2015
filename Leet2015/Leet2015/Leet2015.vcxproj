@@ -91,6 +91,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="Leet2015.cpp" />
