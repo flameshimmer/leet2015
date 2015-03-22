@@ -80,7 +80,7 @@ namespace Solution1
 
 	//3/21/2015
 	void UniquePaths();
-
+	void UniquePathsII();
 };
 
 
