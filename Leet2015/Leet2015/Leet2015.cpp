@@ -62,7 +62,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::FindMinimumInRotatedSortedArray();
 	//Solution1::FindMinimumInRotatedSortedArrayII();
 	//Solution1::UniquePaths();
-	Solution1::UniquePathsII();
+	//Solution1::UniquePathsII();
+	Solution1::DecodeWays();
 
 
 	// Runtime end marker

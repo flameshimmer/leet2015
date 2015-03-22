@@ -75,12 +75,14 @@ namespace Solution1
 	void RotateImage();
 	void RotateList();
 	void FirstMissingPositive();
+	
 	void FindMinimumInRotatedSortedArray();
-	void FindMinimumInRotatedSortedArrayII();
-
 	//3/21/2015
+	void FindMinimumInRotatedSortedArrayII();
+	
 	void UniquePaths();
 	void UniquePathsII();
+	void DecodeWays();
 };
 
 
