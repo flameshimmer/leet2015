@@ -176,5 +176,14 @@
     <ClCompile Include="Combinations.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSum.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

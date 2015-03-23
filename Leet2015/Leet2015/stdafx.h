@@ -88,6 +88,11 @@ namespace Solution1
 	void EditDistance();
 	void MaximumSubarray();
 	void Combinations();
+
+	// 3/23/2015
+	void CombinationSum();
+	void CombinationSumII();
+	void MedianOfTwoSortedArrays();
 };
 
 

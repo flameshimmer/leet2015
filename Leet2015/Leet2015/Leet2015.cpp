@@ -66,7 +66,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::DecodeWays();
 	//Solution1::EditDistance();
 	//Solution1::MaximumSubarray();
-	Solution1::Combinations();
+	//Solution1::Combinations();
+	//Solution1::CombinationSum();
+	//Solution1::CombinationSumII();
+	Solution1::MedianOfTwoSortedArrays();
 
 	// Runtime end marker
 	clock_t end = clock();
