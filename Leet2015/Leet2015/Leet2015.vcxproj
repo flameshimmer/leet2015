@@ -90,7 +90,9 @@
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArray.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
@@ -106,6 +108,7 @@
     <ClCompile Include="LongestPalindromicSubString.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
+    <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />

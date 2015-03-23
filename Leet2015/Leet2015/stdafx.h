@@ -83,6 +83,11 @@ namespace Solution1
 	void UniquePaths();
 	void UniquePathsII();
 	void DecodeWays();
+
+	// 3/22/2015
+	void EditDistance();
+	void MaximumSubarray();
+	void Combinations();
 };
 
 

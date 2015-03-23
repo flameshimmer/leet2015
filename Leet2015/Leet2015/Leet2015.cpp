@@ -63,8 +63,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::FindMinimumInRotatedSortedArrayII();
 	//Solution1::UniquePaths();
 	//Solution1::UniquePathsII();
-	Solution1::DecodeWays();
-
+	//Solution1::DecodeWays();
+	//Solution1::EditDistance();
+	//Solution1::MaximumSubarray();
+	Solution1::Combinations();
 
 	// Runtime end marker
 	clock_t end = clock();

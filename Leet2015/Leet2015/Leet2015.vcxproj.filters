@@ -167,5 +167,14 @@
     <ClCompile Include="DecodeWays.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="EditDistance.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumSubarray.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="Combinations.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
