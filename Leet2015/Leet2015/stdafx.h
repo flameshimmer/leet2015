@@ -103,6 +103,10 @@ namespace Solution1
 	void StringToInteger();
 	void LetterCombinationsOfAPhoneNumber();
 	void RemoveNthNodeFromEndOfList();
+	void SingleNumber();
+	
+	// 3/26/2015
+	void SingleNumberII();
 };
 
 

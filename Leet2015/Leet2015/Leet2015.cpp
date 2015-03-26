@@ -73,7 +73,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::PalindromeNumber();
 	//Solution1::StringToInteger();
 	//Solution1::LetterCombinationsOfAPhoneNumber();
-	Solution1::RemoveNthNodeFromEndOfList();
+	//Solution1::RemoveNthNodeFromEndOfList();
+	//Solution1::SingleNumber();
+	Solution1::SingleNumberII();
 
 
 

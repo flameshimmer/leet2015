@@ -197,5 +197,11 @@
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
