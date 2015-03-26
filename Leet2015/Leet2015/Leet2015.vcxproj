@@ -102,6 +102,7 @@
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="Leet2015.cpp" />
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber .cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
     <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="ListNode.cpp" />
@@ -113,9 +114,11 @@
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
+    <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
@@ -132,6 +135,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="StringToInteger.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />
     <ClCompile Include="WordBreak.cpp" />

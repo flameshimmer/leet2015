@@ -69,7 +69,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::Combinations();
 	//Solution1::CombinationSum();
 	//Solution1::CombinationSumII();
-	Solution1::MedianOfTwoSortedArrays();
+	//Solution1::MedianOfTwoSortedArrays();
+	//Solution1::PalindromeNumber();
+	//Solution1::StringToInteger();
+	//Solution1::LetterCombinationsOfAPhoneNumber();
+	Solution1::RemoveNthNodeFromEndOfList();
+
+
 
 	// Runtime end marker
 	clock_t end = clock();

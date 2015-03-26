@@ -185,5 +185,17 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="PalindromeNumber.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="StringToInteger.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber .cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveNthNodeFromEndOfList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

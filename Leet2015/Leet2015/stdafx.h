@@ -10,6 +10,8 @@
 
 // TODO: reference additional headers your program requires here
 #include <limits> // for printing double
+#include <complex> // for math abs
+
 #include <windows.h>
 #include <vector>
 #include <string>
@@ -92,7 +94,15 @@ namespace Solution1
 	// 3/23/2015
 	void CombinationSum();
 	void CombinationSumII();
-	void MedianOfTwoSortedArrays();
+
+	// 3/24/2015
+	void MedianOfTwoSortedArrays(); //***
+
+	// 3/25/2015
+	void PalindromeNumber();
+	void StringToInteger();
+	void LetterCombinationsOfAPhoneNumber();
+	void RemoveNthNodeFromEndOfList();
 };
 
 
