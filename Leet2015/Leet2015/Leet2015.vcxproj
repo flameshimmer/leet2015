@@ -140,6 +140,9 @@
     <ClCompile Include="StringToInteger.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
+    <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />

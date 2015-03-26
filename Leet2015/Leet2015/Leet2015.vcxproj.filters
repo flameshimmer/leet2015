@@ -203,5 +203,14 @@
     <ClCompile Include="SingleNumberII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ValidParentheses.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidPalindrome.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidSudoku.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

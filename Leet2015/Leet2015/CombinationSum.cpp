@@ -27,7 +27,8 @@ namespace Solution1
 			return;
 		}		
 
-		for (unsigned int i = start; i<candidates.size(); i++)
+		int len = candidates.size();
+		for (int i = start; i<len; i++)
 		{
 			if (i>start && candidates[i] == candidates[i - 1]){ continue; }
 			if (candidates[i] <= target)

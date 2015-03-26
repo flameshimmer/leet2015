@@ -75,7 +75,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LetterCombinationsOfAPhoneNumber();
 	//Solution1::RemoveNthNodeFromEndOfList();
 	//Solution1::SingleNumber();
-	Solution1::SingleNumberII();
+	//Solution1::SingleNumberII();
+	//Solution1::ValidParentheses();
+	//Solution1::ValidPalindrome();
+	Solution1::ValidSudoku();
 
 
 

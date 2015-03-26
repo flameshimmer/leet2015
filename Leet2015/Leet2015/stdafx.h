@@ -107,6 +107,9 @@ namespace Solution1
 	
 	// 3/26/2015
 	void SingleNumberII();
+	void ValidParentheses();
+	void ValidPalindrome();
+	void ValidSudoku();
 };
 
 
@@ -133,6 +136,8 @@ void printWithSpace(string input);
 // bits
 void printBits(uint32_t input);
 
+// matrix
+vector<vector<char>> createCharMatrixFromStringArray(string rawInput[], int size);
 
 // Template helper functions
 template <class T>

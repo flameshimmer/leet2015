@@ -121,3 +121,15 @@ void printBits(uint32_t input)
 	}
 	cout << "\n";
 }
+
+vector<vector<char>> createCharMatrixFromStringArray(string rawInput[], int size)
+{
+	vector<vector<char>> input;
+	
+	for (int i = 0; i < size; i++)
+	{
+		vector<char> cur = vector<char>(rawInput[i].begin(), rawInput[i].end());
+		input.push_back(cur);
+	}
+	return input;
+}
