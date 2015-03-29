@@ -56,6 +56,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>true</Profile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -138,6 +139,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="StringToInteger.cpp" />
+    <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />

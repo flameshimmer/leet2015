@@ -78,7 +78,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SingleNumberII();
 	//Solution1::ValidParentheses();
 	//Solution1::ValidPalindrome();
-	Solution1::ValidSudoku();
+	//Solution1::ValidSudoku();
+	Solution1::SudokuSolver();
 
 
 

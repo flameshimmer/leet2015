@@ -109,7 +109,14 @@ namespace Solution1
 	void SingleNumberII();
 	void ValidParentheses();
 	void ValidPalindrome();
+	
+	// helper functions across problems
 	void ValidSudoku();
+	bool isValidSudoku(vector<vector<char> > &board);
+	
+	void SudokuSolver(); //**sudoku valid, but not the same as the leet code's expectation.
+
+
 };
 
 
@@ -119,7 +126,6 @@ bool compare_STB(int i, int j);
 bool compare_BTS(int i, int j);
 void print(int input[], int len);
 void print(vector<int> input);
-void print(vector<vector<int>> input);
 void print(int input);
 
 // unsigned int
@@ -149,6 +155,28 @@ vector<T> createVector(std::initializer_list<T> list)
 		myVector.push_back(elem);
 	}
 	return myVector;
+}
+
+template <class T>
+void print(vector<vector<T>> input)
+{
+	cout << "\nMatrix: \n";
+	string div = "";
+	for (unsigned int i = 0; i < input[0].size(); i++)
+	{
+		div += "-----";
+	}
+	div += '-';
+	cout << div << "\n";
+	for (vector<T> v : input)
+	{
+		for (unsigned int i = 0; i < v.size(); i++)
+		{
+			cout << "| " << setw(2) << v[i] << " ";
+		}
+		cout << "|\n";
+		cout << div << "\n";
+	}
 }
 
 // helper class

@@ -53,27 +53,6 @@ void print(vector<string> input)
 	cout << input[inputSize - 1] << "\n";
 }
 
-void print(vector<vector<int>> input)
-{
-	cout << "\nMatrix: \n";
-	string div = "";
-	for (unsigned int i = 0; i < input[0].size(); i++)
-	{
-		div += "-----";
-	}
-	div += '-';
-	cout << div << "\n";
-	for (vector<int> v : input)
-	{
-		for (unsigned int i = 0; i < v.size(); i++)
-		{			
-			cout << "| " << setw(2) << v[i] << " ";
-		}
-		cout << "|\n";
-		cout << div << "\n";
-	}
-}
-
 void print(int input)
 {
 	cout << "integer: " << input << "\n";
@@ -121,6 +100,7 @@ void printBits(uint32_t input)
 	}
 	cout << "\n";
 }
+
 
 vector<vector<char>> createCharMatrixFromStringArray(string rawInput[], int size)
 {
