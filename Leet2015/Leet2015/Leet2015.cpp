@@ -83,7 +83,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::RegularExpressionMatching();
 	//Solution1::WildcardMatching();
 	//Solution1::MinimumPathSum();
-	Solution1::Triangle();
+	//Solution1::Triangle();
+	//Solution1::InterleavingString();
+	//Solution1::MergeTwoSortedLists();
+	Solution1::MergeKSortedLists();
 
 
 	// Runtime end marker

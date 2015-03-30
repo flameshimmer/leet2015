@@ -102,6 +102,7 @@
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="Leet2015.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber .cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
@@ -114,6 +115,8 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
+    <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />

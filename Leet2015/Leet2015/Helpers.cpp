@@ -1,6 +1,5 @@
 #include "stdafx.h"
 
-
 bool compare_STB(int i, int j)
 {
 	return i < j;

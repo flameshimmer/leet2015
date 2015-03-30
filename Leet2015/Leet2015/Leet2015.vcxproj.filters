@@ -227,5 +227,14 @@
     <ClCompile Include="Triangle.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="InterleavingString.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoSortedLists.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeKSortedLists.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

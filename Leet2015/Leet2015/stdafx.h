@@ -11,6 +11,7 @@
 // TODO: reference additional headers your program requires here
 #include <limits> // for printing double
 #include <complex> // for math abs
+#include <queue> // for priority queue
 
 #include <windows.h>
 #include <vector>
@@ -26,104 +27,6 @@
 #include <map>
 #include <stdint.h>
 using namespace std;
-
-
-// Solution 1 main entries
-namespace Solution1
-{
-	void TwoSum();
-	void ThreeSum();
-	void ThreeSumClosest();
-	void FourSum();
-	
-	void AddTwoNumbers();
-	void AddBinary();
-
-	void Anagrams();
-	void LongestSubStringWithoutRepeatingCharacters();
-	void LongestPalindromeSubString();
-	void LongestCommonPrefix();
-	void LongestValidParentheses();
-	void LongestConsecutiveSequence();
-	
-	void SearchInRotatedSortedArray();
-	void SearchInRotatedSortedArrayII();
-
-	void ReverseInteger();
-	void ReverseBits();
-	void ReverseWordsInAString();
-	void ReverseWordsInAStringII();
-	void ReverseLinkedListII();
-	void ReverseNodesInKGroup();
-
-	void RomanToInteger();
-	void IntegerToRoman();
-
-	void WordBreak();
-	void WordBreakII();
-
-	void NumberOf1Bits();
-	void PlusOne();
-	void ZigZagConversion();
-	void FactorialTrailingZeroes();
-
-	void PascalsTriangle();
-	void PascalsTriangleII();
-
-	void LinkedListCycle();
-	void LinkedListCycleII();
-
-	void RotateArray();
-	void RotateImage();
-	void RotateList();
-	void FirstMissingPositive();
-	
-	void FindMinimumInRotatedSortedArray();
-	//3/21/2015
-	void FindMinimumInRotatedSortedArrayII();
-	
-	void UniquePaths();
-	void UniquePathsII();
-	void DecodeWays();
-
-	// 3/22/2015
-	void EditDistance();
-	void MaximumSubarray();
-	void Combinations();
-
-	// 3/23/2015
-	void CombinationSum();
-	void CombinationSumII();
-
-	// 3/24/2015
-	void MedianOfTwoSortedArrays(); //***
-
-	// 3/25/2015
-	void PalindromeNumber();
-	void StringToInteger();
-	void LetterCombinationsOfAPhoneNumber();
-	void RemoveNthNodeFromEndOfList();
-	void SingleNumber();
-	
-	// 3/26/2015
-	void SingleNumberII();
-	void ValidParentheses();
-	void ValidPalindrome();
-	
-	// helper functions across problems
-	void ValidSudoku();
-	bool isValidSudoku(vector<vector<char> > &board);
-	
-	// 3/27/2015, 3/28/2015
-	void SudokuSolver();
-
-	// 3/29/2015
-	void RegularExpressionMatching();
-	void WildcardMatching();
-	void MinimumPathSum();
-	void Triangle();
-};
-
 
 // Helper functions
 // int
@@ -198,3 +101,105 @@ void deleteList(ListNode* list);
 void print(ListNode* list);
 ListNode* createListWithCycle(initializer_list<int> listValue, int indexPointFrom, int indexPointTo);
 
+
+
+// Solution 1 main entries
+namespace Solution1
+{
+	void TwoSum();
+	void ThreeSum();
+	void ThreeSumClosest();
+	void FourSum();
+
+	void AddTwoNumbers();
+	void AddBinary();
+
+	void Anagrams();
+	void LongestSubStringWithoutRepeatingCharacters();
+	void LongestPalindromeSubString();
+	void LongestCommonPrefix();
+	void LongestValidParentheses();
+	void LongestConsecutiveSequence();
+
+	void SearchInRotatedSortedArray();
+	void SearchInRotatedSortedArrayII();
+
+	void ReverseInteger();
+	void ReverseBits();
+	void ReverseWordsInAString();
+	void ReverseWordsInAStringII();
+	void ReverseLinkedListII();
+	void ReverseNodesInKGroup();
+
+	void RomanToInteger();
+	void IntegerToRoman();
+
+	void WordBreak();
+	void WordBreakII();
+
+	void NumberOf1Bits();
+	void PlusOne();
+	void ZigZagConversion();
+	void FactorialTrailingZeroes();
+
+	void PascalsTriangle();
+	void PascalsTriangleII();
+
+	void LinkedListCycle();
+	void LinkedListCycleII();
+
+	void RotateArray();
+	void RotateImage();
+	void RotateList();
+	void FirstMissingPositive();
+
+	void FindMinimumInRotatedSortedArray();
+	//3/21/2015
+	void FindMinimumInRotatedSortedArrayII();
+
+	void UniquePaths();
+	void UniquePathsII();
+	void DecodeWays();
+
+	// 3/22/2015
+	void EditDistance();
+	void MaximumSubarray();
+	void Combinations();
+
+	// 3/23/2015
+	void CombinationSum();
+	void CombinationSumII();
+
+	// 3/24/2015
+	void MedianOfTwoSortedArrays(); //***
+
+	// 3/25/2015
+	void PalindromeNumber();
+	void StringToInteger();
+	void LetterCombinationsOfAPhoneNumber();
+	void RemoveNthNodeFromEndOfList();
+	void SingleNumber();
+
+	// 3/26/2015
+	void SingleNumberII();
+	void ValidParentheses();
+	void ValidPalindrome();
+
+	// helper functions across problems
+	void ValidSudoku();
+	bool isValidSudoku(vector<vector<char> > &board);
+
+	// 3/27/2015, 3/28/2015
+	void SudokuSolver();
+
+	// 3/29/2015
+	void RegularExpressionMatching();
+	void WildcardMatching();
+	void MinimumPathSum();
+	void Triangle();
+	
+	// 3/30/2015
+	void InterleavingString();
+	void MergeTwoSortedLists();
+	void MergeKSortedLists();
+};
