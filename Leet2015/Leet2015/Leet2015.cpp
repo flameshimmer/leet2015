@@ -82,7 +82,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SudokuSolver();
 	//Solution1::RegularExpressionMatching();
 	//Solution1::WildcardMatching();
-	Solution1::MinimumPathSum();
+	//Solution1::MinimumPathSum();
+	Solution1::Triangle();
 
 
 	// Runtime end marker

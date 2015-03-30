@@ -142,6 +142,7 @@
     </ClCompile>
     <ClCompile Include="StringToInteger.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />

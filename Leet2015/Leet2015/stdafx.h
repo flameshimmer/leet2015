@@ -121,7 +121,7 @@ namespace Solution1
 	void RegularExpressionMatching();
 	void WildcardMatching();
 	void MinimumPathSum();
-
+	void Triangle();
 };
 
 
@@ -197,5 +197,4 @@ ListNode* getLastNode(ListNode* list);
 void deleteList(ListNode* list);
 void print(ListNode* list);
 ListNode* createListWithCycle(initializer_list<int> listValue, int indexPointFrom, int indexPointTo);
-
 
