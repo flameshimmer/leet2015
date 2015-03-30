@@ -83,7 +83,7 @@ namespace Solution1
 	void ValidSudoku()
 	{
 		string rawInput[9] = { ".87654321", "2........", "3........", "4........", "5........", "6........", "7........", "8........", "9........" };
-		vector<vector<char>> board = createCharMatrixFromStringArray(rawInput, 9);
+		vector<vector<char>> board = createMatrix(rawInput, 9);
 		print(isValidSudoku(board));
 	}
 }

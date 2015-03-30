@@ -114,8 +114,13 @@ namespace Solution1
 	void ValidSudoku();
 	bool isValidSudoku(vector<vector<char> > &board);
 	
-	void SudokuSolver(); //**sudoku valid, but not the same as the leet code's expectation.
+	// 3/27/2015, 3/28/2015
+	void SudokuSolver();
 
+	// 3/29/2015
+	void RegularExpressionMatching();
+	void WildcardMatching();
+	void MinimumPathSum();
 
 };
 
@@ -143,7 +148,7 @@ void printWithSpace(string input);
 void printBits(uint32_t input);
 
 // matrix
-vector<vector<char>> createCharMatrixFromStringArray(string rawInput[], int size);
+vector<vector<char>> createMatrix(string rawInput[], int size);
 
 // Template helper functions
 template <class T>

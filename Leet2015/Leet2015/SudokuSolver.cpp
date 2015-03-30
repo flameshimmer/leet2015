@@ -91,7 +91,7 @@ namespace Solution1
 		// Perr: if the passed in parameter is vector<vector<char>> &, it is much much faster than using vector<vector<char>>, since in 
 		//       the case of the latter, the copy constructor keeps duplicating the vector, which takes a big chunks of time.
 		string rawInput[9] = { "..9748...", "7........", ".2.1.9...", "..7...24.", ".64.1.59.", ".98...3..", "...8.3.2.", "........6", "...2759.." };
-		vector<vector<char>> board = createCharMatrixFromStringArray(rawInput, 9);
+		vector<vector<char>> board = createMatrix(rawInput, 9);
 		solveSudoku(board);
 		print(board);
 		if (isValidSudoku(board)) { cout << "Valid!\n"; }

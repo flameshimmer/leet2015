@@ -101,8 +101,7 @@ void printBits(uint32_t input)
 	cout << "\n";
 }
 
-
-vector<vector<char>> createCharMatrixFromStringArray(string rawInput[], int size)
+vector<vector<char>> createMatrix(string rawInput[], int size)
 {
 	vector<vector<char>> input;
 	

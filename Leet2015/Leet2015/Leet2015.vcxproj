@@ -114,11 +114,13 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
+    <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
@@ -145,6 +147,7 @@
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
+    <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />

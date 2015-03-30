@@ -79,8 +79,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ValidParentheses();
 	//Solution1::ValidPalindrome();
 	//Solution1::ValidSudoku();
-	Solution1::SudokuSolver();
-
+	//Solution1::SudokuSolver();
+	//Solution1::RegularExpressionMatching();
+	//Solution1::WildcardMatching();
+	Solution1::MinimumPathSum();
 
 
 	// Runtime end marker
