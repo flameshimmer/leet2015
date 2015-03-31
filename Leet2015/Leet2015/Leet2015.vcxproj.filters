@@ -236,5 +236,20 @@
     <ClCompile Include="MergeKSortedLists.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="GenerateParentheses.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapNodesInPairs.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideTwoIntegers.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

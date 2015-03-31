@@ -12,7 +12,7 @@ namespace Solution1
 	bool isValid(vector<vector<char>>& board, int row, int col, char val)
 	{
 		// check the row
-		for (int i = 0; i < board[row].size(); i++)
+		for (unsigned int i = 0; i < board[row].size(); i++)
 		{
 			if (board[row][i] == val)
 			{
@@ -20,7 +20,7 @@ namespace Solution1
 			}
 		}
 		// check the col
-		for (int i = 0; i < board.size(); i++)
+		for (unsigned int i = 0; i < board.size(); i++)
 		{
 			if (board[i][col] == val)
 			{

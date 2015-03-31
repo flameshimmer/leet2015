@@ -86,7 +86,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::Triangle();
 	//Solution1::InterleavingString();
 	//Solution1::MergeTwoSortedLists();
-	Solution1::MergeKSortedLists();
+	//Solution1::MergeKSortedLists();
+	//Solution1::GenerateParentheses();
+	//Solution1::SwapNodesInPairs();
+	//Solution1::RemoveDuplicatesFromSortedArray();
+	//Solution1::RemoveElement();
+	Solution1::DivideTwoIntegers();
 
 
 	// Runtime end marker

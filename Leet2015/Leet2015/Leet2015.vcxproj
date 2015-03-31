@@ -95,11 +95,13 @@
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArray.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
@@ -124,6 +126,8 @@
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
+    <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
@@ -145,6 +149,7 @@
     </ClCompile>
     <ClCompile Include="StringToInteger.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
+    <ClCompile Include="SwapNodesInPairs.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />

@@ -202,4 +202,11 @@ namespace Solution1
 	void InterleavingString();
 	void MergeTwoSortedLists();
 	void MergeKSortedLists();
+	void GenerateParentheses();
+	
+	// 3/31/2015
+	void SwapNodesInPairs();
+	void RemoveDuplicatesFromSortedArray();
+	void RemoveElement();
+	void DivideTwoIntegers();
 };
