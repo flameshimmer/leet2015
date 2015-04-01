@@ -94,6 +94,7 @@
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
@@ -120,6 +121,7 @@
     <ClCompile Include="MergeKSortedLists.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
@@ -127,6 +129,7 @@
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />

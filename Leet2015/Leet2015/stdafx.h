@@ -209,4 +209,9 @@ namespace Solution1
 	void RemoveDuplicatesFromSortedArray();
 	void RemoveElement();
 	void DivideTwoIntegers();
+
+	// 4/1/2015
+	void RemoveDuplicatesfromSortedList();
+	void NextPermutation();
+	void CountAndSay();
 };

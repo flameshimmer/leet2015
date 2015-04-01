@@ -251,5 +251,14 @@
     <ClCompile Include="DivideTwoIntegers.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="NextPermutation.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="CountAndSay.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

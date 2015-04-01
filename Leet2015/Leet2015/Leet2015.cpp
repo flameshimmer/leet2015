@@ -91,7 +91,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SwapNodesInPairs();
 	//Solution1::RemoveDuplicatesFromSortedArray();
 	//Solution1::RemoveElement();
-	Solution1::DivideTwoIntegers();
+	//Solution1::DivideTwoIntegers();
+	//Solution1::RemoveDuplicatesfromSortedList();
+	//Solution1::NextPermutation();
+	Solution1::CountAndSay();
 
 
 	// Runtime end marker
