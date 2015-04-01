@@ -260,5 +260,8 @@
     <ClCompile Include="CountAndSay.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="LengthOfLastWord.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

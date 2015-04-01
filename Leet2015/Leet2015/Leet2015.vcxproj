@@ -107,6 +107,7 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="Leet2015.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber .cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
     <ClCompile Include="LinkedListCycleII.cpp" />

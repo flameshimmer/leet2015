@@ -94,7 +94,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::DivideTwoIntegers();
 	//Solution1::RemoveDuplicatesfromSortedList();
 	//Solution1::NextPermutation();
-	Solution1::CountAndSay();
+	//Solution1::CountAndSay();
+	Solution1::LengthOfLastWord();
 
 
 	// Runtime end marker

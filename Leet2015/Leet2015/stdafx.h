@@ -214,4 +214,5 @@ namespace Solution1
 	void RemoveDuplicatesfromSortedList();
 	void NextPermutation();
 	void CountAndSay();
+	void LengthOfLastWord();
 };
