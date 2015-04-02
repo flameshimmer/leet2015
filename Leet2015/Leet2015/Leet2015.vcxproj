@@ -135,6 +135,7 @@
     <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
+    <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />

@@ -272,5 +272,8 @@
     <ClCompile Include="SortList.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ReorderList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

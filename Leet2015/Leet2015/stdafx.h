@@ -220,4 +220,6 @@ namespace Solution1
 	void RemoveDuplicatesFromSortedListII();
 	void PartitionList();
 	void SortList();
+	void ReorderList();
+	void IntersectionOfTwoLinkedLists();
 };

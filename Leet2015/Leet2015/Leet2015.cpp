@@ -98,7 +98,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::CountAndSay();
 	//Solution1::LengthOfLastWord();
 	//Solution1::PartitionList();
-	Solution1::SortList();
+	//Solution1::SortList();
+	//Solution1::ReorderList();
+	Solution1::IntersectionOfTwoLinkedLists();
 	
 
 
