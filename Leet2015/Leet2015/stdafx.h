@@ -215,4 +215,9 @@ namespace Solution1
 	void NextPermutation();
 	void CountAndSay();
 	void LengthOfLastWord();
+
+	// 4/2/2015
+	void RemoveDuplicatesFromSortedListII();
+	void PartitionList();
+	void SortList();
 };

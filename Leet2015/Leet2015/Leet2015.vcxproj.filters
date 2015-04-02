@@ -263,5 +263,14 @@
     <ClCompile Include="LengthOfLastWord.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PartitionList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SortList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

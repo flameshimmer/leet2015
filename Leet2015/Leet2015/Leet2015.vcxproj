@@ -125,12 +125,14 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
@@ -147,6 +149,7 @@
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
+    <ClCompile Include="SortList.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

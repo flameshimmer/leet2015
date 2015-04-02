@@ -93,9 +93,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::RemoveElement();
 	//Solution1::DivideTwoIntegers();
 	//Solution1::RemoveDuplicatesfromSortedList();
+	//Solution1::RemoveDuplicatesFromSortedListII();
 	//Solution1::NextPermutation();
 	//Solution1::CountAndSay();
-	Solution1::LengthOfLastWord();
+	//Solution1::LengthOfLastWord();
+	//Solution1::PartitionList();
+	Solution1::SortList();
+	
 
 
 	// Runtime end marker
