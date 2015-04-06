@@ -107,7 +107,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SubstringWithConcatenationOfAllWords();
 	//Solution1::Permutation();
 	//Solution1::PermutationII();
-	Solution1::Pow();
+	//Solution1::Pow();
+	//Solution1::Subsets();
+	//Solution1::SubsetsII();
+	Solution1::GrayCode();
 
 	// Runtime end marker
 	clock_t end = clock();

@@ -299,5 +299,14 @@
     <ClCompile Include="Pow.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="Subsets.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SubsetsII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayCode.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

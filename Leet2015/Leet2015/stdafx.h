@@ -232,4 +232,9 @@ namespace Solution1
 	void Permutation();
 	void PermutationII();
 	void Pow();
+
+	//4/6/2015
+	void Subsets();
+	void SubsetsII();
+	void GrayCode();
 };

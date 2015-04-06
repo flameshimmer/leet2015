@@ -104,6 +104,7 @@
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="ImplementStrStr.cpp" />
     <ClCompile Include="InsertionSortList.cpp" />
@@ -163,6 +164,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="StringToInteger.cpp" />
+    <ClCompile Include="Subsets.cpp" />
+    <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />

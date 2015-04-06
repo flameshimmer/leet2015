@@ -38,7 +38,7 @@ void print(vector<int> input)
 
 void print(vector<string> input)
 {
-	cout << "\nString Vector: ";
+	cout << "\nString Vector: \n";
 	int inputSize = input.size();
 	if (inputSize == 0) {
 		cout << "\n";
