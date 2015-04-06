@@ -69,6 +69,7 @@ template <class T>
 void print(vector<vector<T>> input)
 {
 	cout << "\nMatrix: \n";
+	if (input.size() == 0) { cout << "Empty!!! \n"; return; }
 	string div = "";
 	for (unsigned int i = 0; i < input[0].size(); i++)
 	{
@@ -139,7 +140,6 @@ namespace Solution1
 
 	void NumberOf1Bits();
 	void PlusOne();
-	void ZigZagConversion();
 	void FactorialTrailingZeroes();
 
 	void PascalsTriangle();
@@ -222,4 +222,14 @@ namespace Solution1
 	void SortList();
 	void ReorderList();
 	void IntersectionOfTwoLinkedLists();
+
+	//4/5/2015
+	void InsertionSortList();
+	void ZigZagConversion();
+	void ContainerWithMostWater();
+	void ImplementStrStr(); // ** missing kmp solve
+	void SubstringWithConcatenationOfAllWords(); //** empty
+	void Permutation();
+	void PermutationII();
+	void Pow();
 };

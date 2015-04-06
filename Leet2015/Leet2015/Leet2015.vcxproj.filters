@@ -275,5 +275,29 @@
     <ClCompile Include="ReorderList.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="IntersectionOfTwoLinkedLists.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSortList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerWithMostWater.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementStrStr.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutations.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationsII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="Pow.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

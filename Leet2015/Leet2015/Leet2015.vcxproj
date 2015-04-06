@@ -94,6 +94,7 @@
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
@@ -104,8 +105,11 @@
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="ImplementStrStr.cpp" />
+    <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
+    <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="Leet2015.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber .cpp" />
@@ -128,7 +132,10 @@
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
+    <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="Pow.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
@@ -156,6 +163,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="StringToInteger.cpp" />
+    <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />
     <ClCompile Include="Triangle.cpp" />

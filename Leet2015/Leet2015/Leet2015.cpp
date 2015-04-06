@@ -45,7 +45,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//Solution1::NumberOf1Bits();
 	//Solution1::PlusOne();
-	//Solution1::ZigZagConversion();
 	//Solution1::FactorialTrailingZeroes();
 
 	//Solution1::PascalsTriangle();
@@ -100,9 +99,15 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::PartitionList();
 	//Solution1::SortList();
 	//Solution1::ReorderList();
-	Solution1::IntersectionOfTwoLinkedLists();
-	
-
+	//Solution1::IntersectionOfTwoLinkedLists();
+	//Solution1::InsertionSortList();
+	//Solution1::ZigZagConversion();
+	//Solution1::ContainerWithMostWater();
+	//Solution1::ImplementStrStr();
+	//Solution1::SubstringWithConcatenationOfAllWords();
+	//Solution1::Permutation();
+	//Solution1::PermutationII();
+	Solution1::Pow();
 
 	// Runtime end marker
 	clock_t end = clock();
