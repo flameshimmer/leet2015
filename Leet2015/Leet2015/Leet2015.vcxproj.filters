@@ -308,5 +308,14 @@
     <ClCompile Include="GrayCode.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="CopyListWithRandomPointer.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchForARange.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -102,7 +102,20 @@ void deleteList(ListNode* list);
 void print(ListNode* list);
 ListNode* createListWithCycle(initializer_list<int> listValue, int indexPointFrom, int indexPointTo);
 
+// RandomListNode
+struct RandomListNode {
+	int label;
+	RandomListNode *next, *random;
+	RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+};
 
+//Definition for binary tree
+struct TreeNode {
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
 // Solution 1 main entries
 namespace Solution1
@@ -237,4 +250,9 @@ namespace Solution1
 	void Subsets();
 	void SubsetsII();
 	void GrayCode();
+
+	//4/7/2015
+	void CopyListWithRandomPointer();
+	void ConvertSortedListToBinarySearchTree();
+	void SearchForARange();
 };

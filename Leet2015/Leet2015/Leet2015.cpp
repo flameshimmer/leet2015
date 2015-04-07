@@ -110,7 +110,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::Pow();
 	//Solution1::Subsets();
 	//Solution1::SubsetsII();
-	Solution1::GrayCode();
+	//Solution1::GrayCode();
+	//Solution1::CopyListWithRandomPointer();
+	//Solution1::ConvertSortedListToBinarySearchTree();
+	Solution1::SearchForARange();
+
 
 	// Runtime end marker
 	clock_t end = clock();
