@@ -113,7 +113,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::GrayCode();
 	//Solution1::CopyListWithRandomPointer();
 	//Solution1::ConvertSortedListToBinarySearchTree();
-	Solution1::SearchForARange();
+	//Solution1::SearchForARange();
+	Solution1::MergeSortedArray();
 
 
 	// Runtime end marker

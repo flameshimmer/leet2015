@@ -255,4 +255,7 @@ namespace Solution1
 	void CopyListWithRandomPointer();
 	void ConvertSortedListToBinarySearchTree();
 	void SearchForARange();
+
+	//4/8/2015
+	void MergeSortedArray();
 };
