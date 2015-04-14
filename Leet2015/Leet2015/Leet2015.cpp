@@ -114,7 +114,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::CopyListWithRandomPointer();
 	//Solution1::ConvertSortedListToBinarySearchTree();
 	//Solution1::SearchForARange();
-	Solution1::MergeSortedArray();
+	//Solution1::MergeSortedArray();
+	//Solution1::MajorityElement();
+	//Solution1::ExcelSheetColumnNumber();
+	Solution1::ExcelSheetColumnTitle();
 
 
 	// Runtime end marker

@@ -101,6 +101,8 @@
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
+    <ClCompile Include="ExcelSheetColumnNumber.cpp" />
+    <ClCompile Include="ExcelSheetColumnTitle.cpp" />
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArray.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
@@ -124,6 +126,7 @@
     <ClCompile Include="LongestPalindromicSubString.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />

@@ -258,4 +258,9 @@ namespace Solution1
 
 	//4/8/2015
 	void MergeSortedArray();
+
+	//4/14/2015
+	void MajorityElement();
+	void ExcelSheetColumnNumber();
+	void ExcelSheetColumnTitle();
 };

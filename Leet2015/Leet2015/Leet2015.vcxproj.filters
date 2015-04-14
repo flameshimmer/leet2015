@@ -320,5 +320,14 @@
     <ClCompile Include="MergeSortedArray.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="MajorityElement.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelSheetColumnNumber.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelSheetColumnTitle.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
