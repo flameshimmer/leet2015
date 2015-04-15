@@ -241,7 +241,6 @@ namespace Solution1
 	void ZigZagConversion();
 	void ContainerWithMostWater();
 	void ImplementStrStr(); // ** missing kmp solve
-	void SubstringWithConcatenationOfAllWords(); //** empty
 	void Permutation();
 	void PermutationII();
 	void Pow();
@@ -263,4 +262,9 @@ namespace Solution1
 	void MajorityElement();
 	void ExcelSheetColumnNumber();
 	void ExcelSheetColumnTitle();
+
+	//4/15/2015
+	void CompareVersionNumbers();
+	void SearchInsertionPosition();
+	void SubstringWithConcatenationOfAllWords();
 };

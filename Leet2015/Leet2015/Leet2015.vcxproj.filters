@@ -329,5 +329,11 @@
     <ClCompile Include="ExcelSheetColumnTitle.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="CompareVersionNumbers.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInsertionPosition.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

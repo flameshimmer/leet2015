@@ -104,7 +104,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ZigZagConversion();
 	//Solution1::ContainerWithMostWater();
 	//Solution1::ImplementStrStr();
-	//Solution1::SubstringWithConcatenationOfAllWords();
 	//Solution1::Permutation();
 	//Solution1::PermutationII();
 	//Solution1::Pow();
@@ -117,7 +116,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MergeSortedArray();
 	//Solution1::MajorityElement();
 	//Solution1::ExcelSheetColumnNumber();
-	Solution1::ExcelSheetColumnTitle();
+	//Solution1::ExcelSheetColumnTitle();
+	//Solution1::CompareVersionNumbers();
+	//Solution1::SearchInsertionPosition();
+	//Solution1::SubstringWithConcatenationOfAllWords();
 
 
 	// Runtime end marker
