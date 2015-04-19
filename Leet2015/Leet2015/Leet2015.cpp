@@ -123,7 +123,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ClimbingStairs();
 	//Solution1::MaximalRectangle();
 	Solution1::LargestRectangleInHistogram();
-
+	
 
 	// Runtime end marker
 	clock_t end = clock();
