@@ -335,5 +335,14 @@
     <ClCompile Include="SearchInsertionPosition.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximalRectangle.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestRectangleInHistogram.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -91,6 +91,7 @@
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
@@ -116,6 +117,7 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
+    <ClCompile Include="LargestRectangleInHistogram.cpp" />
     <ClCompile Include="Leet2015.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber .cpp" />
@@ -128,6 +130,7 @@
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
+    <ClCompile Include="MaximalRectangle.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />

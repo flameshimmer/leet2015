@@ -120,6 +120,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::CompareVersionNumbers();
 	//Solution1::SearchInsertionPosition();
 	//Solution1::SubstringWithConcatenationOfAllWords();
+	//Solution1::ClimbingStairs();
+	//Solution1::MaximalRectangle();
+	Solution1::LargestRectangleInHistogram();
 
 
 	// Runtime end marker

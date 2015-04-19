@@ -267,4 +267,9 @@ namespace Solution1
 	void CompareVersionNumbers();
 	void SearchInsertionPosition();
 	void SubstringWithConcatenationOfAllWords();
+
+	//4/19/2015
+	void ClimbingStairs();
+	void MaximalRectangle();
+	void LargestRectangleInHistogram();
 };
