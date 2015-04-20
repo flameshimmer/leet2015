@@ -13,8 +13,25 @@
 namespace Solution1
 {	
 	int largestRectangleArea(vector<int>& height) {
+		stack<int> s;
+		height.push_back(0);
+
 		int result = 0;
-		int len = height.size();	
+		for (int i = 0; i < height.size(); i++)
+		{
+			if (s.empty() || height[s.top()] <= height[i])
+			{
+				s.push(i);
+			}
+			else
+			{
+				int temp = s.top();
+				s.pop();
+				int startIndex = s.empty() ? -1 : s.top();
+				result = max(result, height[temp] * (i - startIndex - 1));
+				i--;
+			}
+		}
 		return result;
 	}
 
@@ -47,6 +64,6 @@ namespace Solution1
 	
 	void LargestRectangleInHistogram()
 	{
-	
+		print(largestRectangleArea(createVector({2,1,5,6,2,3})));
 	}
 }
