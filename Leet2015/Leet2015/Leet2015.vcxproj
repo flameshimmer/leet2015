@@ -91,6 +91,7 @@
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
@@ -181,6 +182,7 @@
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />
+    <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />

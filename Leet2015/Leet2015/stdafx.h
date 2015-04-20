@@ -272,4 +272,6 @@ namespace Solution1
 	void ClimbingStairs();
 	void MaximalRectangle();
 	void LargestRectangleInHistogram();
+	void TrappingRainWater();
+	void BitwiseAndOfNumbersRange();
 };
