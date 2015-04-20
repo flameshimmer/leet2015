@@ -274,4 +274,9 @@ namespace Solution1
 	void LargestRectangleInHistogram();
 	void TrappingRainWater();
 	void BitwiseAndOfNumbersRange();
+
+	//4/20/2015
+	void MultiplyStrings();
+	void JumpGame();
+	void JumpGameII();
 };

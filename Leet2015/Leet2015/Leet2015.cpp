@@ -124,7 +124,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MaximalRectangle();
 	//Solution1::LargestRectangleInHistogram();
 	//Solution1::TrappingRainWater();
-	Solution1::BitwiseAndOfNumbersRange();
+	//Solution1::BitwiseAndOfNumbersRange();
+	//Solution1::MultiplyStrings();
+	//Solution1::JumpGame();
+	Solution1::JumpGameII();
 	
 
 	// Runtime end marker

@@ -350,5 +350,14 @@
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="MultiplyStrings.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpGame.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpGameII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

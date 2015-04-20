@@ -118,6 +118,8 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="LargestRectangleInHistogram.cpp" />
     <ClCompile Include="Leet2015.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
@@ -138,6 +140,7 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
