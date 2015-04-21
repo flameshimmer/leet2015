@@ -51,6 +51,7 @@ void printWithSpace(string input);
 void printBits(uint32_t input);
 
 // matrix
+void printStringMatrix(vector<string>board);
 vector<vector<char>> createMatrix(string rawInput[], int size);
 
 // Template helper functions
@@ -279,4 +280,9 @@ namespace Solution1
 	void MultiplyStrings();
 	void JumpGame();
 	void JumpGameII();
+
+	//4/21/2015
+	void NQueens();
+
+
 };

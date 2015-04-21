@@ -112,3 +112,13 @@ vector<vector<char>> createMatrix(string rawInput[], int size)
 	return input;
 }
 
+void printStringMatrix(vector<string>board)
+{
+	cout << "String Matrix: \n";
+	for (string s : board)
+	{
+		cout << s << "\n";
+	}
+	cout << "\n\n\n";
+}
+

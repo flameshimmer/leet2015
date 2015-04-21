@@ -359,5 +359,11 @@
     <ClCompile Include="JumpGameII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="NQueens.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueensII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

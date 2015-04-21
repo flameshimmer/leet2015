@@ -127,7 +127,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::BitwiseAndOfNumbersRange();
 	//Solution1::MultiplyStrings();
 	//Solution1::JumpGame();
-	Solution1::JumpGameII();
+	//Solution1::JumpGameII();
+	Solution1::NQueens();
 	
 
 	// Runtime end marker
