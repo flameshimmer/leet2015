@@ -283,6 +283,13 @@ namespace Solution1
 
 	//4/21/2015
 	void NQueens();
+	void NQueensII();
+	void HouseRobber();
+
+	// 4/22/2015
+	void SpiralMatrix();
+	void SpiralMatrixII();
+	void Sqrt();
 
 
 };

@@ -128,7 +128,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MultiplyStrings();
 	//Solution1::JumpGame();
 	//Solution1::JumpGameII();
-	Solution1::NQueens();
+	//Solution1::NQueens();
+	//Solution1::NQueensII();
+	//Solution1::HouseRobber();
+	//Solution1::SpiralMatrix();
+	//Solution1::SpiralMatrixII();
+	Solution1::Sqrt();
 	
 
 	// Runtime end marker

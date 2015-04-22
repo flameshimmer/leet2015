@@ -113,6 +113,7 @@
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="ImplementStrStr.cpp" />
     <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
@@ -177,6 +178,9 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SortList.cpp" />
+    <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="SpiralMatrixII.cpp" />
+    <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

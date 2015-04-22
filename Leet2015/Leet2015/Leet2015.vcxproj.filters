@@ -365,5 +365,17 @@
     <ClCompile Include="NQueensII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="HouseRobber.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrix.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrixII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqrt.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
