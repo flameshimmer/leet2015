@@ -30,6 +30,22 @@ namespace Solution1
 		return end;
 	}
 
+	namespace NewtonsMethod
+	{
+		int mySqrt(int x)
+		{
+			if (x == 0) { return 0; }
+			double last = 0;
+			double cur = 1;
+			while (last != cur)
+			{
+				last = cur;
+				cur = (last + x / last) / 2;
+			}
+			return (int)cur;
+		}
+	}
+
 	namespace other
 	{
 		int mySqrt(int x)
@@ -61,8 +77,8 @@ namespace Solution1
 	}
 	void Sqrt()
 	{
-		print(mySqrt(0));
-		print(mySqrt(1));
-		print(mySqrt(INT_MAX));
+		print(NewtonsMethod::mySqrt(0));
+		print(NewtonsMethod::mySqrt(1));
+		print(NewtonsMethod::mySqrt(INT_MAX));
 	}
 }

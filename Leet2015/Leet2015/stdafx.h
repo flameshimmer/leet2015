@@ -28,32 +28,6 @@
 #include <stdint.h>
 using namespace std;
 
-// Helper functions
-// int
-bool compare_STB(int i, int j);
-bool compare_BTS(int i, int j);
-void print(int input[], int len);
-void print(vector<int> input);
-void print(int input);
-
-// unsigned int
-void print(uint32_t input);
-
-// boolean
-void print(bool input);
-
-// string
-void print(vector<string> input);
-void print(string input);
-void printWithSpace(string input);
-
-// bits
-void printBits(uint32_t input);
-
-// matrix
-void printStringMatrix(vector<string>board);
-vector<vector<char>> createMatrix(string rawInput[], int size);
-
 // Template helper functions
 template <class T>
 vector<T> createVector(std::initializer_list<T> list)
@@ -89,6 +63,7 @@ void print(vector<vector<T>> input)
 	}
 }
 
+
 // helper class
 // List Node
 struct ListNode {
@@ -117,6 +92,43 @@ struct TreeNode {
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+
+//Definition for an interval.
+struct Interval {
+	int start;
+	int end;
+	Interval() : start(0), end(0) {}
+	Interval(int s, int e) : start(s), end(e) {}
+};
+
+// Helper functions
+// int
+bool compare_STB(int i, int j);
+bool compare_BTS(int i, int j);
+void print(int input[], int len);
+void print(vector<int> input);
+void print(int input);
+
+// unsigned int
+void print(uint32_t input);
+
+// boolean
+void print(bool input);
+
+// string
+void print(vector<string> input);
+void print(string input);
+void printWithSpace(string input);
+
+// intervals
+void print(vector<Interval> input);
+
+// bits
+void printBits(uint32_t input);
+
+// matrix
+void printStringMatrix(vector<string>board);
+vector<vector<char>> createMatrix(string rawInput[], int size);
 
 // Solution 1 main entries
 namespace Solution1
@@ -290,6 +302,9 @@ namespace Solution1
 	void SpiralMatrix();
 	void SpiralMatrixII();
 	void Sqrt();
+
+	// 4/23/2015
+	void MergeIntervals();
 
 
 };

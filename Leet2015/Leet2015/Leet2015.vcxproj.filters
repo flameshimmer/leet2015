@@ -377,5 +377,8 @@
     <ClCompile Include="Sqrt.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="MergeIntervals.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -122,3 +122,18 @@ void printStringMatrix(vector<string>board)
 	cout << "\n\n\n";
 }
 
+void print(vector<Interval> input)
+{
+	cout << "\Interval: ";
+	int inputSize = input.size();
+	if (inputSize == 0) {
+		cout << "Empty \n";
+		return;
+	}
+
+	for (int i = 0; i < inputSize - 1; i++)
+	{
+		cout << "[" << input[i].start << ", " << input[i].end << "], ";
+	}
+	cout << "[" << input[inputSize - 1].start << ", " << input[inputSize - 1].end << "]\n";
+}
