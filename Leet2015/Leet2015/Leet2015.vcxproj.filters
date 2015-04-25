@@ -383,5 +383,8 @@
     <ClCompile Include="InsertInterval.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="PermutationSequence.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
