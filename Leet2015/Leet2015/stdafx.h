@@ -305,6 +305,6 @@ namespace Solution1
 
 	// 4/23/2015
 	void MergeIntervals();
-
+	void InsertInterval();
 
 };

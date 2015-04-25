@@ -115,6 +115,7 @@
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="ImplementStrStr.cpp" />
+    <ClCompile Include="InsertInterval.cpp" />
     <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />

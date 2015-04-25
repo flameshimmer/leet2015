@@ -134,7 +134,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SpiralMatrix();
 	//Solution1::SpiralMatrixII();
 	//Solution1::Sqrt();
-	Solution1::MergeIntervals();
+	//Solution1::MergeIntervals();
+	Solution1::InsertInterval();
 	
 
 	// Runtime end marker

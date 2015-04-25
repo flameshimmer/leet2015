@@ -14,63 +14,84 @@
 
 namespace Solution1
 {
-	int lookForIndex(vector<Interval>& intervals, Interval newInterval, bool isHeadLookup)
+	vector<Interval> insert(vector<Interval>& intervals, Interval newInterval)
 	{
-		int start = 0;
-		int end = intervals.size() - 1;
-		int target = isHeadLookup ? newInterval.start : newInterval.end;
-		while (start <= end)
+		vector<Interval> result;
+		if (intervals.size() == 0)
 		{
-			int mid = start + (end - start) / 2;
-			int value = isHeadLookup ? intervals[mid].start : intervals[mid].end;
-
-			if (value == target)
-			{
-				return mid;
-			}
-			else if (value < target)
-			{
-				start = mid + 1;
-			}
-			else
-			{
-				end = mid - 1;
-			}
+			result.push_back(newInterval);
+			return result;
 		}
-		return end;
+		int i = 0;		
+		while (i < intervals.size() && intervals[i].end < newInterval.start)
+		{
+			result.push_back(intervals[i]);
+			i++;
+		}
+		if (i < intervals.size())
+		{
+			newInterval.start = min(intervals[i].start, newInterval.start);
+			
+			while (i<intervals.size() && intervals[i].start <= newInterval.end)
+			{
+				newInterval.end = max(newInterval.end, intervals[i].end);
+				i++;
+			}			
+		}
+		
+		result.push_back(newInterval);
+		for (i; i < intervals.size(); i++)
+		{
+			result.push_back(intervals[i]);
+		}
+		return result;
 	}
-	
-	int merge(vector<Interval>& intervals, int mergeLocation, Interval back)
-	{
-		Interval front = intervals[mergeLocation];
-		if (front.end < back.start)
-		{
-			intervals.insert(intervals.begin() + mergeLocation+1, back);
-			return mergeLocation + 1;
-		}
-		else if (back.end < front.end)
-		{
-			return mergeLocation;
-		}
-		else
-		{
-			intervals[mergeLocation] = Interval(front.start, back.end);
-			return mergeLocation;
-		}
-	}
-	
-	vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) 
-	{
-		int startIndex = lookForIndex(intervals, newInterval, true);
-		int endIndex = lookForIndex(intervals, newInterval, false);
 
-		int mergedIndex = merge(intervals, startIndex, newInterval);
-		merge(interval, mergedIndex, intervals[endIndex])
-
+	namespace other2
+	{
+		vector<Interval> insert(vector<Interval>& intervals, Interval newInterval)
+		{
+			vector<Interval> result;
+			bool merged = false;
+			for (Interval cur : intervals)
+			{
+				if (merged || cur.end < newInterval.start)
+				{
+					result.push_back(cur);
+				}
+				else if (newInterval.end < cur.start)
+				{
+					result.push_back(newInterval);
+					result.push_back(cur);
+					merged = true;
+				}
+				else
+				{
+					newInterval.start = min(cur.start, newInterval.start);
+					newInterval.end = max(cur.end, newInterval.end);
+				}
+			}
+			if (!merged)
+			{
+				result.push_back(newInterval);
+			}
+			return result;
+		}
 	}
 
 	void InsertInterval()
 	{
-	
+		//[1, 3], [6, 9], insert and merge[2, 5] in as[1, 5], [6, 9].
+		vector<Interval> intervals;
+		intervals.push_back(Interval(1, 5));
+		print(insert(intervals, Interval(6, 8)));
+		//Given[1, 2], [3, 5], [6, 7], [8, 10], [12, 16], insert and merge[4, 9] in as[1, 2], [3, 10], [12, 16].
+		vector<Interval> intervals2;
+		intervals2.push_back(Interval(1, 2));
+		intervals2.push_back(Interval(3, 5));
+		intervals2.push_back(Interval(6, 7));
+		intervals2.push_back(Interval(8, 10));
+		intervals2.push_back(Interval(12, 16));
+		//print(insert(intervals2, Interval(4, 9)));
 	}
 }
