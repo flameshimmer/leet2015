@@ -139,7 +139,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::PermutationSequence();
 	//Solution1::SetMatrixZeroes();
 	//Solution1::RemoveLinkedListElements();
-	Solution1::PathSum();
+	//Solution1::PathSum();
+	//Solution1::MaximumDepthOfBinaryTree();
+	//Solution1::MinimumDepthOfBinaryTree();
+	Solution1::SymmetricTree();
 
 	
 

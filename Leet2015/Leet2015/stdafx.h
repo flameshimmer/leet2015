@@ -312,5 +312,8 @@ namespace Solution1
 	void SetMatrixZeroes();
 	void RemoveLinkedListElements();
 	void PathSum();
+	void MaximumDepthOfBinaryTree();
+	void MinimumDepthOfBinaryTree();
+	void SymmetricTree();   // need iterative solve
 
 };
