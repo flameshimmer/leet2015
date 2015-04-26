@@ -136,7 +136,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::Sqrt();
 	//Solution1::MergeIntervals();
 	//Solution1::InsertInterval();
-	Solution1::PermutationSequence();
+	//Solution1::PermutationSequence();
+	Solution1::SetMatrixZeroes();
+
 	
 
 	// Runtime end marker

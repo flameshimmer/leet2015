@@ -309,4 +309,6 @@ namespace Solution1
 	// 4/25/2015
 	void InsertInterval();
 	void PermutationSequence();
+	void SetMatrixZeroes();
+
 };

@@ -178,6 +178,7 @@
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp" />
     <ClCompile Include="SearchInsertionPosition.cpp" />
+    <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="SortList.cpp" />

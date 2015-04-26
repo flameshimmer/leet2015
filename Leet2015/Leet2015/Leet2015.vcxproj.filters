@@ -386,5 +386,8 @@
     <ClCompile Include="PermutationSequence.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="SetMatrixZeroes.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
