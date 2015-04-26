@@ -15,48 +15,36 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ThreeSum();
 	//Solution1::ThreeSumClosest();
 	//Solution1::FourSum();
-
 	//Solution1::AddTwoNumbers();
 	//Solution1::AddBinary();
-	
 	//Solution1::Anagrams();
-	
 	//Solution1::LongestSubStringWithoutRepeatingCharacters();
 	//Solution1::LongestPalindromeSubString();
 	//Solution1::LongestCommonPrefix();
 	//Solution1::LongestValidParentheses();
 	//Solution1::LongestConsecutiveSequence();
-
 	//Solution1::SearchInRotatedSortedArray();
 	//Solution1::SearchInRotatedSortedArrayII();
-	
 	//Solution1::ReverseInteger();
 	//Solution1::ReverseBits();
 	//Solution1::ReverseWordsInAString();
 	//Solution1::ReverseWordsInAStringII();
 	//Solution1::ReverseLinkedListII();
 	//Solution1::ReverseNodesInKGroup();
-
 	//Solution1::RomanToInteger();
 	//Solution1::IntegerToRoman();
-
 	//Solution1::WordBreak();
 	//Solution1::WordBreakII();
-
 	//Solution1::NumberOf1Bits();
 	//Solution1::PlusOne();
 	//Solution1::FactorialTrailingZeroes();
-
 	//Solution1::PascalsTriangle();
 	//Solution1::PascalsTriangleII();
-
 	//Solution1::LinkedListCycle();
 	//Solution1::LinkedListCycleII();
-
 	//Solution1::RotateArray();
 	//Solution1::RotateImage();
 	//Solution1::RotateList();
-
     //Solution1::FirstMissingPositive();
 	//Solution1::FindMinimumInRotatedSortedArray();
 	//Solution1::FindMinimumInRotatedSortedArrayII();
@@ -142,7 +130,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::PathSum();
 	//Solution1::MaximumDepthOfBinaryTree();
 	//Solution1::MinimumDepthOfBinaryTree();
-	Solution1::SymmetricTree();
+	//Solution1::SymmetricTree();
+	//Solution1::ValidNumber();
+	//Solution1::TextJustification();
+	//Solution1::SimplifyPath();
+	//Solution1::SearchA2DMatrix();
+	Solution1::SortColors();
 
 	
 

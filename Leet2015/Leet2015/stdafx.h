@@ -316,4 +316,11 @@ namespace Solution1
 	void MinimumDepthOfBinaryTree();
 	void SymmetricTree();   // need iterative solve
 
+	// 4/26/2015
+	void ValidNumber();
+	void TextJustification();
+	void SimplifyPath();
+	void SearchA2DMatrix();
+	void SortColors();
+
 };
