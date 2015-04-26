@@ -311,5 +311,6 @@ namespace Solution1
 	void PermutationSequence();
 	void SetMatrixZeroes();
 	void RemoveLinkedListElements();
+	void PathSum();
 
 };

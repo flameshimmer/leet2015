@@ -395,5 +395,8 @@
     <ClCompile Include="RemoveLinkedListElements.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
