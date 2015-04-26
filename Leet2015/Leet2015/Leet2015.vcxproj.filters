@@ -389,5 +389,11 @@
     <ClCompile Include="SetMatrixZeroes.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="SameTree.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveLinkedListElements.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

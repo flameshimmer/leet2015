@@ -137,7 +137,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MergeIntervals();
 	//Solution1::InsertInterval();
 	//Solution1::PermutationSequence();
-	Solution1::SetMatrixZeroes();
+	//Solution1::SetMatrixZeroes();
+	Solution1::RemoveLinkedListElements();
 
 	
 

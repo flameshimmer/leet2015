@@ -310,5 +310,6 @@ namespace Solution1
 	void InsertInterval();
 	void PermutationSequence();
 	void SetMatrixZeroes();
+	void RemoveLinkedListElements();
 
 };

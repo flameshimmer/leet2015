@@ -162,6 +162,7 @@
     <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
+    <ClCompile Include="RemoveLinkedListElements.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
@@ -174,6 +175,7 @@
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="RotateList.cpp" />
+    <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="SearchForARange.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp" />
