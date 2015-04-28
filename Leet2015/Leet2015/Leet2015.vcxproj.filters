@@ -413,5 +413,14 @@
     <ClCompile Include="SortColors.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="WordSearch.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesFromSortedArrayII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RestoreIPAddresses.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

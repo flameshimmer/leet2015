@@ -323,4 +323,9 @@ namespace Solution1
 	void SearchA2DMatrix();
 	void SortColors();
 
+	//4/28/2015
+	void WordSearch();
+	void RemoveDuplicatesFromSortedArrayII();
+	void RestoreIPAddresses();
+
 };

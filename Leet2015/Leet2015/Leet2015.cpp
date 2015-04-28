@@ -135,7 +135,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::TextJustification();
 	//Solution1::SimplifyPath();
 	//Solution1::SearchA2DMatrix();
-	Solution1::SortColors();
+	//Solution1::SortColors();
+	//Solution1::WordSearch();
+	//Solution1::RemoveDuplicatesFromSortedArrayII();
+	Solution1::RestoreIPAddresses();
 
 	
 

@@ -160,12 +160,14 @@
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedArrayII.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveLinkedListElements.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReorderList.cpp" />
+    <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
@@ -213,6 +215,7 @@
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
+    <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
