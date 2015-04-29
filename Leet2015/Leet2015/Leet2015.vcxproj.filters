@@ -422,5 +422,11 @@
     <ClCompile Include="RestoreIPAddresses.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTrees.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBinaryTree.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

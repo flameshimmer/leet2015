@@ -24,6 +24,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <stack>
+#include <queue>
 #include <map>
 #include <stdint.h>
 using namespace std;
@@ -328,4 +329,8 @@ namespace Solution1
 	void RemoveDuplicatesFromSortedArrayII();
 	void RestoreIPAddresses();
 
+	//4/29/2015
+	void UniqueBinarySearchTrees(); // didn't work
+	void BalancedBinaryTree();
+	void BinaryTreeLevelOrderTraversal();
 };

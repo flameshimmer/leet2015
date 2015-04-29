@@ -138,7 +138,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SortColors();
 	//Solution1::WordSearch();
 	//Solution1::RemoveDuplicatesFromSortedArrayII();
-	Solution1::RestoreIPAddresses();
+	//Solution1::RestoreIPAddresses();
+	//Solution1::UniqueBinarySearchTrees();
+	//Solution1::BalancedBinaryTree();
+	Solution1::BinaryTreeLevelOrderTraversal();
 
 	
 

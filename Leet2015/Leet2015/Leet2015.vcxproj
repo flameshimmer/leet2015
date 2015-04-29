@@ -91,6 +91,7 @@
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -206,6 +207,7 @@
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="uniquePathsII.cpp" />
     <ClCompile Include="ValidNumber.cpp" />
