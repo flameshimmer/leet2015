@@ -333,4 +333,6 @@ namespace Solution1
 	void UniqueBinarySearchTrees(); // didn't work
 	void BalancedBinaryTree();
 	void BinaryTreeLevelOrderTraversal();
+	void BinaryTreeLevelOrderTraversalII();
+	void PathSumII();
 };

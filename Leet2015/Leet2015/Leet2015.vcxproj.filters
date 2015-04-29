@@ -428,5 +428,11 @@
     <ClCompile Include="BalancedBinaryTree.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSumII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

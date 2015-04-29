@@ -92,6 +92,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -154,6 +155,7 @@
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />
+    <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PermutationsII.cpp" />

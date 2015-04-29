@@ -137,3 +137,10 @@ void print(vector<Interval> input)
 	}
 	cout << "[" << input[inputSize - 1].start << ", " << input[inputSize - 1].end << "]\n";
 }
+
+
+
+
+
+
+
