@@ -434,5 +434,17 @@
     <ClCompile Include="PathSumII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearchTreeIterator.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="SumRootToLeafNumbers.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePreorderTraversal.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

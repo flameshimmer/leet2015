@@ -143,8 +143,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::BalancedBinaryTree();
 	//Solution1::BinaryTreeLevelOrderTraversal();
 	//Solution1::BinaryTreeLevelOrderTraversalII();
-	Solution1::PathSumII();
-	
+	//Solution1::PathSumII();
+	//Solution1::BinarySearchTreeIterator();
+	//Solution1::SumRootToLeafNumbers();
+	//Solution1::BinaryTreePreorderTraversal();
+	//Solution1::FlattenBinaryTreeToLinkedList();
+	//Solution1::BinaryTreeZigzagLevelOrderTraversal();	
+	Solution1::BinaryTreeUpsideDown();
 
 	// Runtime end marker
 	clock_t end = clock();

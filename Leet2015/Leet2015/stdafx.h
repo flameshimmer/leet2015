@@ -335,4 +335,12 @@ namespace Solution1
 	void BinaryTreeLevelOrderTraversal();
 	void BinaryTreeLevelOrderTraversalII();
 	void PathSumII();
+
+	//4/30/2015
+	void BinarySearchTreeIterator();
+	void SumRootToLeafNumbers();
+	void BinaryTreePreorderTraversal();
+	void FlattenBinaryTreeToLinkedList();
+	void BinaryTreeZigzagLevelOrderTraversal();
+	void BinaryTreeUpsideDown();
 };

@@ -92,7 +92,9 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BinarySearchTreeIterator.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
+    <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -112,6 +114,7 @@
     <ClCompile Include="FindMinimumInRotatedSortedArray.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="Helpers.cpp" />
@@ -205,6 +208,7 @@
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
+    <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
