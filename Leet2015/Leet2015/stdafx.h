@@ -131,6 +131,9 @@ void printBits(uint32_t input);
 void printStringMatrix(vector<string>board);
 vector<vector<char>> createMatrix(string rawInput[], int size);
 
+// tree
+TreeNode* createTree(string data, int& index);
+
 // Solution 1 main entries
 namespace Solution1
 {
@@ -343,4 +346,9 @@ namespace Solution1
 	void FlattenBinaryTreeToLinkedList();
 	void BinaryTreeZigzagLevelOrderTraversal();
 	void BinaryTreeUpsideDown();
+
+	//5/2/2015
+	void ConstructBinaryTreeFromPreorderAndInorderTraversal();
+	void ConstructBinaryTreeFromInorderAndPostorderTraversal();
+	void BinaryTreeRightSideView();
 };

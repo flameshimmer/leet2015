@@ -95,12 +95,15 @@
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="CompareVersionNumbers.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />

@@ -446,5 +446,14 @@
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeRightSideView.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

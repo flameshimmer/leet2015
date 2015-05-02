@@ -138,6 +138,26 @@ void print(vector<Interval> input)
 	cout << "[" << input[inputSize - 1].start << ", " << input[inputSize - 1].end << "]\n";
 }
 
+TreeNode* createTree(string data, int& index)
+{
+	int len = data.length();
+	if (len == 0 || index >= len) { return NULL; }
+	
+	char c = data[index];
+	index++;
+	if (c != '#')
+	{
+		TreeNode* newNode = new TreeNode(c - '0');
+		newNode->left = createTree(data, index);
+		newNode->right = createTree(data, index);
+		return newNode;
+	}
+	else
+	{
+		return NULL;
+	}	
+}
+
 
 
 

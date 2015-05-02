@@ -149,7 +149,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::BinaryTreePreorderTraversal();
 	//Solution1::FlattenBinaryTreeToLinkedList();
 	//Solution1::BinaryTreeZigzagLevelOrderTraversal();	
-	Solution1::BinaryTreeUpsideDown();
+	//Solution1::BinaryTreeUpsideDown();
+	//Solution1::ConstructBinaryTreeFromPreorderAndInorderTraversal();
+	//Solution1::ConstructBinaryTreeFromInorderAndPostorderTraversal();
+	Solution1::BinaryTreeRightSideView();
 
 	// Runtime end marker
 	clock_t end = clock();
