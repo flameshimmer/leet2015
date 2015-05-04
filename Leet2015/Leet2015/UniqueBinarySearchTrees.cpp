@@ -13,22 +13,51 @@
 
 namespace Solution1
 {
-	//void putNode(int level, int n, vector<int>& map, int& minVal, int& maxVal, vector<int>& result);
-	//{
-	//	if (level == n)
-	//	{
-
-	//	}
-
-	//}
-
-	int numTrees(int n) 
+	int numTrees(int n)
 	{
-		return -1;
+		vector<int>count(n + 1, 0);
+		count[0] = 1;
+		count[1] = 1;
 
+		for (int i = 2; i <= n; i++) // i is the count of the tree
+		{
+			for (int j = 0; j < i; j++) // j is the node on the left side of the tree
+			{
+				count[i] += count[j] * count[i - j - 1];
+			}			
+		}
+		return count[n];
 	}
+
+	namespace other
+	{
+		int countTree(int startVal, int endVal, unordered_map<int, int>& map)
+		{
+			if (endVal <= startVal) { return 1; }
+			if (map.count(endVal - startVal) != 0) { return map[endVal - startVal]; }
+			else{
+				int result = 0;
+				for (int i = startVal; i <= endVal; i++)
+				{
+					int leftCount = countTree(startVal, i - 1, map);
+					int rightCount = countTree(i + 1, endVal, map);
+					result += leftCount * rightCount;
+				}
+				map[endVal - startVal] = result;
+				return result;
+			}
+		}
+
+		int numTrees(int n)
+		{
+			unordered_map<int, int> map;
+			return countTree(1, n, map);
+		}
+	}
+
 
 	void UniqueBinarySearchTrees()
 	{
+		print(numTrees(13));
 	}
 }

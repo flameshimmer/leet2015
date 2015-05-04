@@ -161,9 +161,6 @@
     <ClCompile Include="UniquePaths.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
-    <ClCompile Include="uniquePathsII.cpp">
-      <Filter>Solution1</Filter>
-    </ClCompile>
     <ClCompile Include="DecodeWays.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
@@ -453,6 +450,36 @@
       <Filter>Solution1</Filter>
     </ClCompile>
     <ClCompile Include="BinaryTreeRightSideView.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePathsII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PopulatingNextRightPointersInEachNode.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PopulatingNextRightPointersInEachNodeII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateBinarySearchTree.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeMaximumPathSum.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoverBinarySearchTree.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
   </ItemGroup>

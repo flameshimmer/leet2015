@@ -93,7 +93,10 @@
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
+    <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
@@ -105,6 +108,7 @@
     <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp" />
     <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
@@ -166,7 +170,10 @@
     <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="PopulatingNextRightPointersInEachNode.cpp" />
+    <ClCompile Include="PopulatingNextRightPointersInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
+    <ClCompile Include="RecoverBinarySearchTree.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArrayII.cpp" />
@@ -217,8 +224,10 @@
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
-    <ClCompile Include="uniquePathsII.cpp" />
+    <ClCompile Include="UniquePathsII.cpp" />
+    <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidNumber.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />

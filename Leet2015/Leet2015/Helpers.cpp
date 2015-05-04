@@ -138,27 +138,53 @@ void print(vector<Interval> input)
 	cout << "[" << input[inputSize - 1].start << ", " << input[inputSize - 1].end << "]\n";
 }
 
-TreeNode* createTree(string data, int& index)
+TreeNode* createTree(vector<int> data, int deliminator)
 {
-	int len = data.length();
-	if (len == 0 || index >= len) { return NULL; }
+	int len = data.size();
+	if (len == 0) { return NULL; }
 	
-	char c = data[index];
-	index++;
-	if (c != '#')
+	queue<TreeNode*> q;
+	TreeNode* root = new TreeNode(data[0]);
+	q.push(root);
+	int index = 1;
+	while (!q.empty())
 	{
-		TreeNode* newNode = new TreeNode(c - '0');
-		newNode->left = createTree(data, index);
-		newNode->right = createTree(data, index);
-		return newNode;
+		TreeNode* cur = q.front();
+		q.pop();
+		if (index == len) { break; }
+		int c = data[index++];
+		if (c != deliminator)
+		{
+			TreeNode* leftNode = new TreeNode(c);
+			cur->left = leftNode;
+			q.push(leftNode);
+		}
+		if (index == len) { break; }
+		c = data[index++];
+		if (c != deliminator)
+		{
+			TreeNode* rightNode = new TreeNode(c);
+			cur->right = rightNode;
+			q.push(rightNode);
+		}
 	}
-	else
-	{
-		return NULL;
-	}	
+	return root;
 }
 
 
+void linkTreeNodes(TreeLinkNode* root, TreeLinkNode* l, TreeLinkNode* r)
+{
+	if (!root) return;
+	root->left = l;
+	root->right = r;
+}
+
+void linkTreeNodes(TreeNode* root, TreeNode* l, TreeNode* r)
+{
+	if (!root) return;
+	root->left = l;
+	root->right = r;
+}
 
 
 

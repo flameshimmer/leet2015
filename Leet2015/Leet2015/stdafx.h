@@ -86,12 +86,21 @@ struct RandomListNode {
 	RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
 };
 
-//Definition for binary tree
+//Definition for binary tree node
 struct TreeNode {
 	int val;
 	TreeNode *left;
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+//Definition for linked binary tree node
+struct TreeLinkNode {
+	int val;
+	TreeLinkNode *left;
+	TreeLinkNode *right;
+	TreeLinkNode *next;
+	TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
 };
 
 //Definition for an interval.
@@ -131,8 +140,12 @@ void printBits(uint32_t input);
 void printStringMatrix(vector<string>board);
 vector<vector<char>> createMatrix(string rawInput[], int size);
 
-// tree
-TreeNode* createTree(string data, int& index);
+// trees
+vector<int> getFlattenedTreeData(TreeNode* root);
+TreeNode* createTree(vector<int> data, int deliminator);
+void linkTreeNodes(TreeNode* root, TreeNode* l, TreeNode* r);
+void linkTreeNodes(TreeLinkNode* root, TreeLinkNode* l, TreeLinkNode* r);
+
 
 // Solution 1 main entries
 namespace Solution1
@@ -333,7 +346,6 @@ namespace Solution1
 	void RestoreIPAddresses();
 
 	//4/29/2015
-	void UniqueBinarySearchTrees(); // didn't work
 	void BalancedBinaryTree();
 	void BinaryTreeLevelOrderTraversal();
 	void BinaryTreeLevelOrderTraversalII();
@@ -351,4 +363,16 @@ namespace Solution1
 	void ConstructBinaryTreeFromPreorderAndInorderTraversal();
 	void ConstructBinaryTreeFromInorderAndPostorderTraversal();
 	void BinaryTreeRightSideView();
+
+	//5/3/2015
+	void UniqueBinarySearchTrees();
+	void UniqueBinarySearchTreesII();
+	void ConvertSortedArrayToBinarySearchTree();
+	void PopulatingNextRightPointersInEachNode();
+	void PopulatingNextRightPointersInEachNodeII();
+	void BinaryTreeInorderTraversal();
+	void ValidateBinarySearchTree();
+	void BinaryTreePostorderTraversal();
+	void BinaryTreeMaximumPathSum();
+	void RecoverBinarySearchTree();
 };
