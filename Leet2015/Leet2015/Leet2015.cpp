@@ -161,7 +161,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ValidateBinarySearchTree();
 	//Solution1::BinaryTreePostorderTraversal();	
 	//Solution1::RecoverBinarySearchTree();
-	Solution1::BinaryTreeMaximumPathSum();
+	//Solution1::BinaryTreeMaximumPathSum();
+	//Solution1::HappyNumber();
+	//Solution1::IsomorphicStrings();
+	Solution1::ReadNCharactersGivenRead4();
 	
 
 

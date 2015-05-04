@@ -124,6 +124,7 @@
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GrayCode.cpp" />
+    <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="ImplementStrStr.cpp" />
@@ -132,6 +133,7 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
+    <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="LargestRectangleInHistogram.cpp" />

@@ -375,4 +375,9 @@ namespace Solution1
 	void BinaryTreePostorderTraversal();
 	void BinaryTreeMaximumPathSum();
 	void RecoverBinarySearchTree();
+
+	// 5/4/2015
+	void HappyNumber();
+	void IsomorphicStrings();
+	void ReadNCharactersGivenRead4();
 };

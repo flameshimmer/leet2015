@@ -482,5 +482,11 @@
     <ClCompile Include="RecoverBinarySearchTree.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="HappyNumber.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="IsomorphicStrings.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
