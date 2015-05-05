@@ -380,4 +380,8 @@ namespace Solution1
 	void HappyNumber();
 	void IsomorphicStrings();
 	void ReadNCharactersGivenRead4();
+
+	//5/5/2015
+	void LargestNumber();
+	void GasStation();
 };

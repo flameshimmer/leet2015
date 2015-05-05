@@ -164,7 +164,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::BinaryTreeMaximumPathSum();
 	//Solution1::HappyNumber();
 	//Solution1::IsomorphicStrings();
-	Solution1::ReadNCharactersGivenRead4();
+	//Solution1::ReadNCharactersGivenRead4();
+	//Solution1::LargestNumber();
+	Solution1::GasStation();
 	
 
 

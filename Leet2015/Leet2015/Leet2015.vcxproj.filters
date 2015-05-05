@@ -488,5 +488,11 @@
     <ClCompile Include="IsomorphicStrings.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ReadNCharactersGivenRead4.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestNumber.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

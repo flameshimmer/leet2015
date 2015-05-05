@@ -14,7 +14,8 @@
 namespace Solution1
 {
 	// Forward declaration of the read4 API.
-	int read4(char *buf);
+	int read4(char *buf){ return 4; }
+
 
 
 	/**
