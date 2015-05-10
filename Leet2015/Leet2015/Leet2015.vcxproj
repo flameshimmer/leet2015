@@ -122,6 +122,7 @@
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HappyNumber.cpp" />

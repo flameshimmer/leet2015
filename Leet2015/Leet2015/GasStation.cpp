@@ -14,10 +14,18 @@ namespace Solution1
 {
 	int canCompleteCircuit(vector<int>& gas, vector<int>& cost) 
 	{
+		int len = gas.size();
+		if (len == 0) { return -1; }
+		vector<int> diff(len, 0);
+		for (int i = 0; i < len; i++)
+		{
+			diff[i] = gas[i] - cost[i];
+		}
+
 
 	}
 
 	void GasStation()
 	{
 	}
-}
+} 

@@ -383,5 +383,8 @@ namespace Solution1
 
 	//5/5/2015
 	void LargestNumber();
+
+	//5/10/2015
+	void ReverseLinkedList();
 	void GasStation();
 };
