@@ -166,8 +166,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::IsomorphicStrings();
 	//Solution1::ReadNCharactersGivenRead4();
 	//Solution1::LargestNumber();
-	Solution1::ReverseLinkedList();
+	//Solution1::ReverseLinkedList();
 	//Solution1::GasStation();
+	Solution1::MinimumWindowSubstring();
 	
 
 

@@ -387,4 +387,5 @@ namespace Solution1
 	//5/10/2015
 	void ReverseLinkedList();
 	void GasStation();
+	void MinimumWindowSubstring();
 };

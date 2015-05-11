@@ -159,6 +159,7 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NQueens.cpp" />
@@ -191,6 +192,7 @@
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="ReverseWordsInAString.cpp" />

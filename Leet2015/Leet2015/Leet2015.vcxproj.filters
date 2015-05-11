@@ -494,5 +494,14 @@
     <ClCompile Include="LargestNumber.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedList.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumWindowSubstring.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
