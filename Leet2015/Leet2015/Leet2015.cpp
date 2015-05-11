@@ -107,7 +107,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ExcelSheetColumnTitle();
 	//Solution1::CompareVersionNumbers();
 	//Solution1::SearchInsertionPosition();
-	//Solution1::SubstringWithConcatenationOfAllWords();
 	//Solution1::ClimbingStairs();
 	//Solution1::MaximalRectangle();
 	//Solution1::LargestRectangleInHistogram();
@@ -168,8 +167,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LargestNumber();
 	//Solution1::ReverseLinkedList();
 	//Solution1::GasStation();
-	Solution1::MinimumWindowSubstring();
-	
+	//Solution1::MinimumWindowSubstring();
+	Solution1::SubstringWithConcatenationOfAllWords();
 
 
 	// Runtime end marker

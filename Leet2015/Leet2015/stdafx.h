@@ -296,7 +296,6 @@ namespace Solution1
 	//4/15/2015
 	void CompareVersionNumbers();
 	void SearchInsertionPosition();
-	void SubstringWithConcatenationOfAllWords();
 
 	//4/19/2015
 	void ClimbingStairs();
@@ -388,4 +387,5 @@ namespace Solution1
 	void ReverseLinkedList();
 	void GasStation();
 	void MinimumWindowSubstring();
+	void SubstringWithConcatenationOfAllWords();
 };
