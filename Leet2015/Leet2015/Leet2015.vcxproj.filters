@@ -503,5 +503,11 @@
     <ClCompile Include="MinimumWindowSubstring.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="NumberOfIslands.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumSizeSubarraySum.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

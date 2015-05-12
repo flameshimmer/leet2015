@@ -168,7 +168,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ReverseLinkedList();
 	//Solution1::GasStation();
 	//Solution1::MinimumWindowSubstring();
-	Solution1::SubstringWithConcatenationOfAllWords();
+	//Solution1::SubstringWithConcatenationOfAllWords();
+	//Solution1::NumberOfIslands();
+	//Solution1::MinimumSizeSubarraySum();
+	Solution1::CloneGraph();
 
 
 	// Runtime end marker

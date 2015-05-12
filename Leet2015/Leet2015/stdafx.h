@@ -103,6 +103,13 @@ struct TreeLinkNode {
 	TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
 };
 
+//Definition for undirected graph.
+struct UndirectedGraphNode {
+	int label;
+	vector<UndirectedGraphNode *> neighbors;
+	UndirectedGraphNode(int x) : label(x) {};
+};
+
 //Definition for an interval.
 struct Interval {
 	int start;
@@ -388,4 +395,9 @@ namespace Solution1
 	void GasStation();
 	void MinimumWindowSubstring();
 	void SubstringWithConcatenationOfAllWords();
+
+	//5/11/2015
+	void NumberOfIslands();
+	void MinimumSizeSubarraySum();
+	void CloneGraph();
 };
