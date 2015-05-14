@@ -509,5 +509,14 @@
     <ClCompile Include="MinimumSizeSubarraySum.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="CloneGraph.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="CountPrimes.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

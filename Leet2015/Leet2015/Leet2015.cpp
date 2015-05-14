@@ -171,7 +171,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SubstringWithConcatenationOfAllWords();
 	//Solution1::NumberOfIslands();
 	//Solution1::MinimumSizeSubarraySum();
-	Solution1::CloneGraph();
+	//Solution1::CloneGraph();
+	//Solution1::MinStack();
+	Solution1::CountPrimes();
 
 
 	// Runtime end marker

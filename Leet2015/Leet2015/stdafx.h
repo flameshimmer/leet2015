@@ -400,4 +400,8 @@ namespace Solution1
 	void NumberOfIslands();
 	void MinimumSizeSubarraySum();
 	void CloneGraph();
+
+	//5/14/2015
+	void MinStack();
+	void CountPrimes();
 };
