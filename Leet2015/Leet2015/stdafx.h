@@ -404,4 +404,10 @@ namespace Solution1
 	//5/14/2015
 	void MinStack();
 	void CountPrimes();
+
+	//5/15/2015
+	void PalindromePartitioning();
+	void PalindromePartitioningII();
+	void TwoSumII();
+	void TwoSumIII();
 };

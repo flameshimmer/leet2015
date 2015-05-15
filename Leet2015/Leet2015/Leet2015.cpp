@@ -173,7 +173,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MinimumSizeSubarraySum();
 	//Solution1::CloneGraph();
 	//Solution1::MinStack();
-	Solution1::CountPrimes();
+	//Solution1::CountPrimes();
+	//Solution1::PalindromePartitioning();
+	//Solution1::PalindromePartitioningII();
+	//Solution1::TwoSumII();
+	Solution1::TwoSumIII();
 
 
 	// Runtime end marker

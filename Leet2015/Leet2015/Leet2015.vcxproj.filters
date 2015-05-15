@@ -518,5 +518,17 @@
     <ClCompile Include="CountPrimes.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="PalindromePartitioning.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromePartitioningII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSumII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSumIII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -171,6 +171,8 @@
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
+    <ClCompile Include="PalindromePartitioningII.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
@@ -235,6 +237,8 @@
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TwoSumII.cpp" />
+    <ClCompile Include="TwoSumIII.cpp" />
     <ClCompile Include="UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
