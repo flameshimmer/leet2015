@@ -542,5 +542,8 @@
     <ClCompile Include="FindPeakElement.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="EvaluateReversePolishNotation.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -117,6 +117,7 @@
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
+    <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExcelSheetColumnTitle.cpp" />
     <ClCompile Include="FactorialTrailingZeroes.cpp" />

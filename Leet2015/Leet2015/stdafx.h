@@ -417,4 +417,7 @@ namespace Solution1
 	void WordLadder();
 	//void WordLadderII(); didn't finish
 	void FindPeakElement();
+
+	// 5/17/2015
+	void EvaluateReversePolishNotation();
 };

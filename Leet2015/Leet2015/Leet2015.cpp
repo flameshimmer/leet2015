@@ -181,7 +181,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::SurroundedRegions();
 	//Solution1::WordLadder();
 	//Solution1::WordLadderII();
-	Solution1::FindPeakElement();
+	//Solution1::FindPeakElement();
+	Solution1::EvaluateReversePolishNotation();
 
 	// Runtime end marker
 	clock_t end = clock();
