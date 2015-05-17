@@ -12,6 +12,7 @@
 #include <limits> // for printing double
 #include <complex> // for math abs
 #include <queue> // for priority queue
+#include <utility> // for make_pair
 
 #include <windows.h>
 #include <vector>
@@ -410,4 +411,8 @@ namespace Solution1
 	void PalindromePartitioningII();
 	void TwoSumII();
 	void TwoSumIII();
+
+	//5/16/2015
+	void SurroundedRegions();
+	void WordLadder();
 };

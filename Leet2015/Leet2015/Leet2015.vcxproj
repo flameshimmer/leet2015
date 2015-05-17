@@ -233,6 +233,7 @@
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
+    <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
@@ -251,6 +252,7 @@
     <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
+    <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>

@@ -530,5 +530,11 @@
     <ClCompile Include="TwoSumIII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="SurroundedRegions.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="WordLadder.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

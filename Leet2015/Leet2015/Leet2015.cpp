@@ -177,8 +177,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::PalindromePartitioning();
 	//Solution1::PalindromePartitioningII();
 	//Solution1::TwoSumII();
-	Solution1::TwoSumIII();
-
+	//Solution1::TwoSumIII();
+	//Solution1::SurroundedRegions();
+	Solution1::WordLadder();
 
 	// Runtime end marker
 	clock_t end = clock();
