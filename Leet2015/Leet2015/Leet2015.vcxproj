@@ -92,6 +92,8 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />

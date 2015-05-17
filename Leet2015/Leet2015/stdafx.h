@@ -420,4 +420,8 @@ namespace Solution1
 
 	// 5/17/2015
 	void EvaluateReversePolishNotation();
+	void BestTimeToBuyAndSellStock();
+	void BestTimeToBuyAndSellStockII();
+	//void BestTimeToBuyAndSellStockIII();
+	//void BestTimeToBuyAndSellStockIV();
 };
