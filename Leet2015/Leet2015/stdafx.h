@@ -415,4 +415,6 @@ namespace Solution1
 	//5/16/2015
 	void SurroundedRegions();
 	void WordLadder();
+	//void WordLadderII(); didn't finish
+	void FindPeakElement();
 };

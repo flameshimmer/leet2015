@@ -536,5 +536,11 @@
     <ClCompile Include="WordLadder.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="WordLadderII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPeakElement.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

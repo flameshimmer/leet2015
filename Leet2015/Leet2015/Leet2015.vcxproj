@@ -122,6 +122,7 @@
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArray.cpp" />
     <ClCompile Include="FindMinimumInRotatedSortedArrayII.cpp" />
+    <ClCompile Include="FindPeakElement.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="GasStation.cpp" />
@@ -253,6 +254,7 @@
     <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
     <ClCompile Include="WordLadder.cpp" />
+    <ClCompile Include="WordLadderII.cpp" />
     <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>

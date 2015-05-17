@@ -179,7 +179,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::TwoSumII();
 	//Solution1::TwoSumIII();
 	//Solution1::SurroundedRegions();
-	Solution1::WordLadder();
+	//Solution1::WordLadder();
+	//Solution1::WordLadderII();
+	Solution1::FindPeakElement();
 
 	// Runtime end marker
 	clock_t end = clock();
