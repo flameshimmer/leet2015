@@ -184,9 +184,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::FindPeakElement();
 	//Solution1::EvaluateReversePolishNotation();
 	//Solution1::BestTimeToBuyAndSellStock();
-	Solution1::BestTimeToBuyAndSellStockII();
+	//Solution1::BestTimeToBuyAndSellStockII();
 	//Solution1::BestTimeToBuyAndSellStockIII();
-	//Solution1::BestTimeToBuyAndSellStockIV();
+	Solution1::BestTimeToBuyAndSellStockIV();
 
 	// Runtime end marker
 	clock_t end = clock();

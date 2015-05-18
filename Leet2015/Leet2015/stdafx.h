@@ -422,6 +422,6 @@ namespace Solution1
 	void EvaluateReversePolishNotation();
 	void BestTimeToBuyAndSellStock();
 	void BestTimeToBuyAndSellStockII();
-	//void BestTimeToBuyAndSellStockIII();
-	//void BestTimeToBuyAndSellStockIV();
+	void BestTimeToBuyAndSellStockIII();
+	void BestTimeToBuyAndSellStockIV();
 };

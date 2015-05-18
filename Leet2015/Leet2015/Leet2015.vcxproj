@@ -94,6 +94,8 @@
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockIII.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockIV.cpp" />
     <ClCompile Include="BinarySearchTreeIterator.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />

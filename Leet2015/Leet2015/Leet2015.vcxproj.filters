@@ -551,5 +551,11 @@
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStockIII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStockIV.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
