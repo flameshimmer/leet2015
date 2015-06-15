@@ -48,7 +48,6 @@ namespace Solution1
 			return maxProduct;
 		}
 
-	
 		namespace other
 		{
 			int findLocalMax(vector<int>& nums, int start, int end)
