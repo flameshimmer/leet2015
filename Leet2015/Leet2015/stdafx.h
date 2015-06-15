@@ -431,4 +431,6 @@ namespace Solution1
 	void InvertBinaryTree();
 	void RectangleArea();
 	void MaximumProductSubarray();
+	void CombinationSumIII();
+	void KthLargestElementInAnArray();
 };

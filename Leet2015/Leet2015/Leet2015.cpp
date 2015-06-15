@@ -191,7 +191,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ContainsDuplicateII();
 	//Solution1::InvertBinaryTree();
 	//Solution1::RectangleArea();
-	Solution1::MaximumProductSubarray();
+	//Solution1::MaximumProductSubarray();
+	//Solution1::CombinationSumIII();
+	Solution1::KthLargestElementInAnArray();
 
 	// Runtime end marker
 	clock_t end = clock();

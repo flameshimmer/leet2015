@@ -109,6 +109,7 @@
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="CombinationSumIII.cpp" />
     <ClCompile Include="CompareVersionNumbers.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
+    <ClCompile Include="KthLargestElementInAnArray.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="LargestRectangleInHistogram.cpp" />
     <ClCompile Include="Leet2015.cpp" />

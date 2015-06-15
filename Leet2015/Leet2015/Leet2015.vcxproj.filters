@@ -572,5 +572,11 @@
     <ClCompile Include="MaximumProductSubarray.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSumIII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="KthLargestElementInAnArray.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
