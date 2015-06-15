@@ -557,5 +557,20 @@
     <ClCompile Include="BestTimeToBuyAndSellStockIV.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ContainsDuplicate.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainsDuplicateII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertBinaryTree.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleArea.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumProductSubarray.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

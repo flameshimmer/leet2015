@@ -186,7 +186,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::BestTimeToBuyAndSellStock();
 	//Solution1::BestTimeToBuyAndSellStockII();
 	//Solution1::BestTimeToBuyAndSellStockIII();
-	Solution1::BestTimeToBuyAndSellStockIV();
+	//Solution1::BestTimeToBuyAndSellStockIV();
+	//Solution1::ContainsDuplicate();
+	//Solution1::ContainsDuplicateII();
+	//Solution1::InvertBinaryTree();
+	//Solution1::RectangleArea();
+	Solution1::MaximumProductSubarray();
 
 	// Runtime end marker
 	clock_t end = clock();

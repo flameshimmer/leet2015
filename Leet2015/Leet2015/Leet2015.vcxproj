@@ -113,6 +113,8 @@
     <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ContainsDuplicate.cpp" />
+    <ClCompile Include="ContainsDuplicateII.cpp" />
     <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp" />
     <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
@@ -142,6 +144,7 @@
     <ClCompile Include="IntegerToRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
+    <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
@@ -160,6 +163,7 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
+    <ClCompile Include="MaximumProductSubarray.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
@@ -193,6 +197,7 @@
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="ReadNCharactersGivenRead4.cpp" />
     <ClCompile Include="RecoverBinarySearchTree.cpp" />
+    <ClCompile Include="RectangleArea.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArrayII.cpp" />

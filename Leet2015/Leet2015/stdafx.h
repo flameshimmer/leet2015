@@ -424,4 +424,11 @@ namespace Solution1
 	void BestTimeToBuyAndSellStockII();
 	void BestTimeToBuyAndSellStockIII();
 	void BestTimeToBuyAndSellStockIV();
+
+	// 6/14/2015
+	void ContainsDuplicate();
+	void ContainsDuplicateII();
+	void InvertBinaryTree();
+	void RectangleArea();
+	void MaximumProductSubarray();
 };
