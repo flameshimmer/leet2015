@@ -193,7 +193,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::RectangleArea();
 	//Solution1::MaximumProductSubarray();
 	//Solution1::CombinationSumIII();
-	Solution1::KthLargestElementInAnArray();
+	//Solution1::KthLargestElementInAnArray();
+	Solution1::HouseRobberII();
 
 	// Runtime end marker
 	clock_t end = clock();

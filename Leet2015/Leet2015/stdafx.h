@@ -432,5 +432,8 @@ namespace Solution1
 	void RectangleArea();
 	void MaximumProductSubarray();
 	void CombinationSumIII();
+
+	//6/15/2015
 	void KthLargestElementInAnArray();
+	void HouseRobberII();
 };

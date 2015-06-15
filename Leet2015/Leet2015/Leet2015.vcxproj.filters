@@ -578,5 +578,8 @@
     <ClCompile Include="KthLargestElementInAnArray.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="HouseRobberII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
