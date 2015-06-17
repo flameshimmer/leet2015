@@ -88,6 +88,7 @@
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="AddAndSearchWordDataStructureDesign.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
@@ -210,6 +211,7 @@
     <ClCompile Include="RemoveLinkedListElements.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="ReorderList.cpp" />
+    <ClCompile Include="RepeatedDNASequences.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />

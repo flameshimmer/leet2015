@@ -436,4 +436,8 @@ namespace Solution1
 	//6/15/2015
 	void KthLargestElementInAnArray();
 	void HouseRobberII();
+
+	//6/17/2015
+	void RepeatedDNASequences();
+	void AddAndSearchWordDataStructureDesign();
 };

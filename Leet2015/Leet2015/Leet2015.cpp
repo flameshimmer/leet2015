@@ -194,7 +194,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MaximumProductSubarray();
 	//Solution1::CombinationSumIII();
 	//Solution1::KthLargestElementInAnArray();
-	Solution1::HouseRobberII();
+	//Solution1::HouseRobberII();
+	//Solution1::RepeatedDNASequences();
+	Solution1::AddAndSearchWordDataStructureDesign();
 
 	// Runtime end marker
 	clock_t end = clock();

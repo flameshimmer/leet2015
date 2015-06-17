@@ -581,5 +581,11 @@
     <ClCompile Include="HouseRobberII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="RepeatedDNASequences.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAndSearchWordDataStructureDesign.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
