@@ -122,6 +122,7 @@
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
+    <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="HouseRobberII.cpp" />
     <ClCompile Include="ImplementStrStr.cpp" />
+    <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="InsertInterval.cpp" />
     <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="IntegerToRoman.cpp" />

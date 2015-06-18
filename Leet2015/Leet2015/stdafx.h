@@ -440,4 +440,8 @@ namespace Solution1
 	//6/17/2015
 	void RepeatedDNASequences();
 	void AddAndSearchWordDataStructureDesign();
+
+	//6/18/2015
+	void ImplementTrie();
+	void CourseSchedule();
 };
