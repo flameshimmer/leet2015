@@ -198,7 +198,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::RepeatedDNASequences();
 	//Solution1::AddAndSearchWordDataStructureDesign();
 	//Solution1::ImplementTrie();
-	Solution1::CourseSchedule();
+	//Solution1::CourseSchedule();
+	Solution1::CourseScheduleII();
 
 	// Runtime end marker
 	clock_t end = clock();

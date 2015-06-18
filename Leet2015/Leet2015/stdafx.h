@@ -444,4 +444,5 @@ namespace Solution1
 	//6/18/2015
 	void ImplementTrie();
 	void CourseSchedule();
+	void CourseScheduleII();
 };

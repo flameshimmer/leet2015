@@ -61,32 +61,19 @@ namespace Solution1
 	}
 
 	namespace dfs{
-		bool hasCycle(int cur, vector<vector<int>>& children, vector<int>& parent, vector<bool>& visited, int& visitedCount)
+		bool hasCycle(int cur, vector<vector<int>>& children, vector<bool>& visited, vector<bool>& flaged)
 		{
-			if (visited[cur])
-			{
-				return false;
-			}
-			visitedCount++;
-			visited[cur] = true;
+			flaged[cur] = true;
+			
 			for (int child : children[cur])
 			{
-				if (!visited[child])
+				if (visited[child]) { return true; }
+				visited[child] = true;
+				if (hasCycle(child, children, visited, flaged))
 				{
-					parent[child] = cur;
-					if (hasCycle(child, children, parent, visited, visitedCount))
-					{
-						return true;
-					}
+					return true;
 				}
-				else
-				{
-					if (parent[child] != -1 && parent[child] != cur)
-					{
-						return true;
-					}
-					return false;
-				}
+				visited[child] = false;
 			}
 			return false;
 		}
@@ -94,31 +81,24 @@ namespace Solution1
 		bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites)
 		{
 			vector<vector<int>> children(numCourses, vector<int>());
-			vector<int> inDegree(numCourses, 0);
 
 			for (pair<int, int> p : prerequisites)
 			{
-				children[p.second].push_back(p.first);
-				inDegree[p.first]++;
+				children[p.second].push_back(p.first);			
 			}
 
-			int visitedCount = 0;
-			vector<int>parent(numCourses, -1);
-			vector<bool>visited(numCourses, false);
-			for (int i = 0; i < inDegree.size(); i++)
+			vector<bool>flaged(numCourses, false);
+			for (int i = 0; i < numCourses; i++)
 			{
-				if (inDegree[i] == 0)
+				vector<bool>visited(numCourses, false);				
+				if (!flaged[i] && hasCycle(i, children, visited, flaged))
 				{
-					if (hasCycle(i, children, parent, visited, visitedCount))
-					{
-						return false;
-					}
+					return false;
 				}
 			}
-			return visitedCount == numCourses;
+			return true;
 		}
-
-
+	
 	}
 	vector<pair<int, int>> createInput(vector<vector<int>> rawInput)
 	{
