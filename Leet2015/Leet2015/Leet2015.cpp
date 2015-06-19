@@ -201,7 +201,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::CourseSchedule();
 	//Solution1::CourseScheduleII();
 	//Solution1::ImplementStackUsingQueues();
-	Solution1::MaximumGap();
+	//Solution1::MaximumGap();
+	Solution1::FractionToRecurringDecimal();
 
 	// Runtime end marker
 	clock_t end = clock();

@@ -599,5 +599,11 @@
     <ClCompile Include="ImplementStackUsingQueues.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="MaximumGap.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="FractionToRecurringDecimal.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

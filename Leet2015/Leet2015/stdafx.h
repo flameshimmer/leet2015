@@ -446,5 +446,8 @@ namespace Solution1
 	void CourseSchedule();
 	void CourseScheduleII();
 	void ImplementStackUsingQueues();
+
+	// 6/19/2015
 	void MaximumGap();
+	void FractionToRecurringDecimal();
 };

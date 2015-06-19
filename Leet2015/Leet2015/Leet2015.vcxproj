@@ -136,6 +136,7 @@
     <ClCompile Include="FindPeakElement.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="FractionToRecurringDecimal.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GrayCode.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
+    <ClCompile Include="MaximumGap.cpp" />
     <ClCompile Include="MaximumProductSubarray.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
