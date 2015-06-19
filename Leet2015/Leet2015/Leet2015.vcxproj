@@ -123,6 +123,7 @@
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="CourseSchedule.cpp" />
+    <ClCompile Include="CourseScheduleII.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="HouseRobberII.cpp" />
+    <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="ImplementStrStr.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="InsertInterval.cpp" />

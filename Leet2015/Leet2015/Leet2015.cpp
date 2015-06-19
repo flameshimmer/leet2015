@@ -199,7 +199,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::AddAndSearchWordDataStructureDesign();
 	//Solution1::ImplementTrie();
 	//Solution1::CourseSchedule();
-	Solution1::CourseScheduleII();
+	//Solution1::CourseScheduleII();
+	//Solution1::ImplementStackUsingQueues();
+	Solution1::MaximumGap();
 
 	// Runtime end marker
 	clock_t end = clock();

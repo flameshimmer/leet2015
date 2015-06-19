@@ -593,5 +593,11 @@
     <ClCompile Include="CourseSchedule.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="CourseScheduleII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementStackUsingQueues.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

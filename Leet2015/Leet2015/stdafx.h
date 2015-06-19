@@ -445,4 +445,6 @@ namespace Solution1
 	void ImplementTrie();
 	void CourseSchedule();
 	void CourseScheduleII();
+	void ImplementStackUsingQueues();
+	void MaximumGap();
 };
