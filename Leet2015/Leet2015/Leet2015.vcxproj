@@ -93,6 +93,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockIII.cpp" />
@@ -105,6 +106,7 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
     <ClCompile Include="BitwiseAndOfNumbersRange.cpp" />
+    <ClCompile Include="Candy.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -125,6 +127,7 @@
     <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="CourseScheduleII.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
@@ -231,6 +234,7 @@
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="SameTree.cpp" />
+    <ClCompile Include="ScrambleString.cpp" />
     <ClCompile Include="SearchA2DMatrix.cpp" />
     <ClCompile Include="SearchForARange.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />

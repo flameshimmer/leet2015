@@ -202,7 +202,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::CourseScheduleII();
 	//Solution1::ImplementStackUsingQueues();
 	//Solution1::MaximumGap();
-	Solution1::FractionToRecurringDecimal();
+	//Solution1::FractionToRecurringDecimal();
+	//Solution1::BasicCalculator();
+	//Solution1::ScrambleString();
+	//Solution1::Candy();
+	Solution1::DistinctSubsequences();
 
 	// Runtime end marker
 	clock_t end = clock();

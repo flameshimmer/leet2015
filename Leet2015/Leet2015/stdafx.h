@@ -450,4 +450,10 @@ namespace Solution1
 	// 6/19/2015
 	void MaximumGap();
 	void FractionToRecurringDecimal();
+
+	//6/20/2015
+	void BasicCalculator();
+	void ScrambleString();
+	void Candy();
+	void DistinctSubsequences();
 };

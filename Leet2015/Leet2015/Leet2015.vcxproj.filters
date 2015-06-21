@@ -605,5 +605,17 @@
     <ClCompile Include="FractionToRecurringDecimal.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="BasicCalculator.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrambleString.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctSubsequences.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
