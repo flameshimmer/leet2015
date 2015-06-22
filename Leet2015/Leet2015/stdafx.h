@@ -469,4 +469,5 @@ namespace Solution1
 	void LRUCacheEntry();
 	void MaxPointsOnALine();
 	void ReadNCharactersGivenRead4II();
+	void OneEditDistance();
 };

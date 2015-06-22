@@ -209,7 +209,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::DistinctSubsequences();
 	//Solution1::LRUCacheEntry();
 	//Solution1::MaxPointsOnALine();
-	Solution1::ReadNCharactersGivenRead4II();
+	//Solution1::ReadNCharactersGivenRead4II();
+	Solution1::OneEditDistance();
 
 
 	// Runtime end marker

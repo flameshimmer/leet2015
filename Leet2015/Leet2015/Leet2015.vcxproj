@@ -195,6 +195,7 @@
     <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
+    <ClCompile Include="OneEditDistance.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PalindromePartitioningII.cpp" />
