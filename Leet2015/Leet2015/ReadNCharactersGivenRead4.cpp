@@ -13,9 +13,8 @@
 
 namespace Solution1
 {
-	// Forward declaration of the read4 API.
+	// Read4 API.
 	int read4(char *buf){ return 4; }
-
 
 
 	/**
@@ -23,23 +22,21 @@ namespace Solution1
 	* @param n   Maximum number of characters to read
 	* @return    The number of characters read
 	*/
+	char _buf[4];
+	int _readCount = 0;
 	int read(char *buf, int n) 
 	{
-		if (!buf) { return 0; }
-
-		char* cur = buf;
 		int remain = n;
-		while (remain > 0 && buf != NULL)
+		while (remain > 0)
 		{
-			int count = read4(cur);
-			remain -= count;
-			if (remain < 0)
+			_readCount = read4(_buf);
+			for (int i = 0; i < _readCount && remain > 0; i++)
 			{
-				count -= -remain;
-				remain = 0;
+				*(buf++) = _buf[i];
+				remain--;
 			}
-			cur += count;
-			if (count < 4) { break; }
+
+			if (_readCount < 4) { break; }
 		}
 		return n - remain;
 	}

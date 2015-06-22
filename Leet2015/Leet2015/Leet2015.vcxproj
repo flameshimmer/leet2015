@@ -173,11 +173,13 @@
     <ClCompile Include="LongestPalindromicSubString.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
     <ClCompile Include="MaximumGap.cpp" />
     <ClCompile Include="MaximumProductSubarray.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MaxPointsOnALine.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKSortedLists.cpp" />
@@ -209,6 +211,7 @@
     <ClCompile Include="PopulatingNextRightPointersInEachNodeII.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="ReadNCharactersGivenRead4.cpp" />
+    <ClCompile Include="ReadNCharactersGivenRead4II.cpp" />
     <ClCompile Include="RecoverBinarySearchTree.cpp" />
     <ClCompile Include="RectangleArea.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />

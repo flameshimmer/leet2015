@@ -617,5 +617,14 @@
     <ClCompile Include="DistinctSubsequences.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxPointsOnALine.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadNCharactersGivenRead4II.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

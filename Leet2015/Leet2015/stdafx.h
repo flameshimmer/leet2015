@@ -65,7 +65,6 @@ void print(vector<vector<T>> input)
 	}
 }
 
-
 // helper class
 // List Node
 struct ListNode {
@@ -118,6 +117,15 @@ struct Interval {
 	Interval() : start(0), end(0) {}
 	Interval(int s, int e) : start(s), end(e) {}
 };
+
+//Definition for a point.
+struct Point {
+	int x;
+	int y;
+	Point() : x(0), y(0) {}
+	Point(int a, int b) : x(a), y(b) {}
+};
+
 
 // Helper functions
 // int
@@ -456,4 +464,9 @@ namespace Solution1
 	void ScrambleString();
 	void Candy();
 	void DistinctSubsequences();
+	
+	//6/21/2015
+	void LRUCacheEntry();
+	void MaxPointsOnALine();
+	void ReadNCharactersGivenRead4II();
 };

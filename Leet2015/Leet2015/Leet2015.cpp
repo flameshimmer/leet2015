@@ -206,7 +206,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::BasicCalculator();
 	//Solution1::ScrambleString();
 	//Solution1::Candy();
-	Solution1::DistinctSubsequences();
+	//Solution1::DistinctSubsequences();
+	//Solution1::LRUCacheEntry();
+	//Solution1::MaxPointsOnALine();
+	Solution1::ReadNCharactersGivenRead4II();
+
 
 	// Runtime end marker
 	clock_t end = clock();
@@ -215,7 +219,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	// End program routine
 	cout.precision(dbl::digits10);
 	cout << "\n\nYour program total runtime is: " << elapsed_time_in_millisecond << "ms";
-	cout << "\n\nPress any key to exit ...\n\n";
+	cout << "\n\nPress enter key to exit ...\n\n";
 	cin.get();	
 	return 0;
 }
