@@ -629,5 +629,11 @@
     <ClCompile Include="OneEditDistance.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="MissingRanges.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="CountCompleteTreeNodes.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

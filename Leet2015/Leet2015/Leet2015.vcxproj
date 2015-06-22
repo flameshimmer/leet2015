@@ -123,6 +123,7 @@
     <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
+    <ClCompile Include="CountCompleteTreeNodes.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="CourseScheduleII.cpp" />
@@ -189,6 +190,7 @@
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="MissingRanges.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NQueens.cpp" />

@@ -210,7 +210,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LRUCacheEntry();
 	//Solution1::MaxPointsOnALine();
 	//Solution1::ReadNCharactersGivenRead4II();
-	Solution1::OneEditDistance();
+	//Solution1::OneEditDistance();
+	//Solution1::MissingRanges();
+	Solution1::CountCompleteTreeNodes();
 
 
 	// Runtime end marker

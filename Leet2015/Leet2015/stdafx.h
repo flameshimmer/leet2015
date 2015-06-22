@@ -426,14 +426,14 @@ namespace Solution1
 	//void WordLadderII(); didn't finish
 	void FindPeakElement();
 
-	// 5/17/2015
+	//5/17/2015
 	void EvaluateReversePolishNotation();
 	void BestTimeToBuyAndSellStock();
 	void BestTimeToBuyAndSellStockII();
 	void BestTimeToBuyAndSellStockIII();
 	void BestTimeToBuyAndSellStockIV();
 
-	// 6/14/2015
+	//6/14/2015
 	void ContainsDuplicate();
 	void ContainsDuplicateII();
 	void InvertBinaryTree();
@@ -455,7 +455,7 @@ namespace Solution1
 	void CourseScheduleII();
 	void ImplementStackUsingQueues();
 
-	// 6/19/2015
+	//6/19/2015
 	void MaximumGap();
 	void FractionToRecurringDecimal();
 
@@ -469,5 +469,9 @@ namespace Solution1
 	void LRUCacheEntry();
 	void MaxPointsOnALine();
 	void ReadNCharactersGivenRead4II();
+
+	//6/22/2015
 	void OneEditDistance();
+	void MissingRanges();
+	void CountCompleteTreeNodes();
 };
