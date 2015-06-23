@@ -80,6 +80,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Solution1.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -94,6 +95,7 @@
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
+    <ClCompile Include="BasicCalculatorII.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockIII.cpp" />
@@ -177,6 +179,7 @@
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
+    <ClCompile Include="MaximalSquare.cpp" />
     <ClCompile Include="MaximumGap.cpp" />
     <ClCompile Include="MaximumProductSubarray.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />

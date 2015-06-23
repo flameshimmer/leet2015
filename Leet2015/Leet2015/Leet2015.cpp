@@ -1,7 +1,9 @@
 // Leet2015.cpp : Defines the entry point for the console application.
 //
-
 #include "stdafx.h"
+#include "Solution1.h"
+
+
 using namespace std;
 typedef std::numeric_limits< double > dbl;
 
@@ -9,7 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	// Runtime begin marker start
 	clock_t begin = clock();
-
 
 	//Solution1::TwoSum();
 	//Solution1::ThreeSum();
@@ -212,7 +213,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ReadNCharactersGivenRead4II();
 	//Solution1::OneEditDistance();
 	//Solution1::MissingRanges();
-	Solution1::CountCompleteTreeNodes();
+	//Solution1::CountCompleteTreeNodes();
+	//Solution1::BasicCalculatorII();
+	Solution1::MaximalSquare();
 
 
 	// Runtime end marker

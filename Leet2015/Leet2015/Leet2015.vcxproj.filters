@@ -30,6 +30,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Solution1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -633,6 +636,12 @@
       <Filter>Solution1</Filter>
     </ClCompile>
     <ClCompile Include="CountCompleteTreeNodes.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCalculatorII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximalSquare.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
   </ItemGroup>

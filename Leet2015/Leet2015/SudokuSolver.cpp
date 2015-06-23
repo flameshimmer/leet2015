@@ -94,7 +94,7 @@ namespace Solution1
 		vector<vector<char>> board = createMatrix(rawInput, 9);
 		solveSudoku(board);
 		print(board);
-		if (isValidSudoku(board)) { cout << "Valid!\n"; }
-		else { cout << "Not Valid!\n"; }
+//		if (isValidSudoku(board)) { cout << "Valid!\n"; }
+	//	else { cout << "Not Valid!\n"; }
 	}
 }
