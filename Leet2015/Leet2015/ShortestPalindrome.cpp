@@ -11,33 +11,34 @@
 
 namespace Solution1
 {
-	namespace wrong{
-		string shortestPalindrome(string s)
+
+	string shortestPalindrome(string s)
+	{
+		string rev = s;
+		reverse(rev.begin(), rev.end());
+		string l = s + "+" + rev;
+
+		vector<int> p(l.size(), 0);
+		for (int i = 1; i < l.size(); i++)
 		{
-			int lens = s.length();
-			if (lens < 2) { return s; }
-
-			int start = 0;
-			int end = lens - 1;
-
-			while (start < end)
+			int j = p[i - 1];
+			while (j>0 && l[i] != l[j])
 			{
-				if (s[start] != s[end])
-				{
-					s.insert(s.begin() + start, s[end]);
-					end++;
-				}
-				start++;
-				end--;
+				j = p[j - 1];
 			}
-			return s;
+			if (l[i] == l[j]) { j++; }
+			p[i] = j;
 		}
+
+		string fr = rev.substr(0, s.size() - p[l.size() - 1]);
+		return fr + s;
 	}
 
+
 	void ShortestPalindrome()
-	{
-/*		print(shortestPalindrome("adcba"));
+	{		
+		print(shortestPalindrome("aacecaaa"));
 		print(shortestPalindrome("abcd"));
-		print(shortestPalindrome("aacecaaa"));	*/	
+		print(shortestPalindrome("adcba"));
 	}
 }
