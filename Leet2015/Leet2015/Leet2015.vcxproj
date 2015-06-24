@@ -174,6 +174,7 @@
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="LongestPalindromicSubString.cpp" />
+    <ClCompile Include="LongestSubstringWithAtMostTwoDistinctCharacters.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="LRUCache.cpp" />
@@ -250,6 +251,7 @@
     <ClCompile Include="SearchInRotatedSortedArrayII.cpp" />
     <ClCompile Include="SearchInsertionPosition.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
+    <ClCompile Include="ShortestPalindrome.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SingleNumberII.cpp" />

@@ -121,7 +121,7 @@ namespace Solution1
 	void InsertionSortList();
 	void ZigZagConversion();
 	void ContainerWithMostWater();
-	void ImplementStrStr(); // ** missing kmp solve
+	void ImplementStrStr();
 	void Permutation();
 	void PermutationII();
 	void Pow();
@@ -313,4 +313,6 @@ namespace Solution1
 	// 6/23/2015
 	void BasicCalculatorII();
 	void MaximalSquare();
+	void LongestSubstringWithAtMostTwoDistinctCharacters();
+	void ShortestPalindrome();
 };

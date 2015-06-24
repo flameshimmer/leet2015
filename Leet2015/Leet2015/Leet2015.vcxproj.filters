@@ -644,5 +644,11 @@
     <ClCompile Include="MaximalSquare.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="LongestSubstringWithAtMostTwoDistinctCharacters.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPalindrome.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

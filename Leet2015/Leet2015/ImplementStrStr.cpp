@@ -7,39 +7,93 @@
 
 namespace Solution1
 {
-	bool match(char* hayStack, char* needle)
+	vector<int> calcNextTable(string p)
 	{
-		if (strlen(hayStack) < strlen(needle)){ return false; }
-		while (*needle != '\0')
+		//int len = p.length();
+		//vector<int> next(len, -1);
+		//
+		//int j = -1;
+		//for (int i = 1; i < len; i++)
+		//{
+		//	while (j >= 0 && p[i] != p[j + 1])
+		//	{
+		//		j = next[j];
+		//	}
+		//	if (p[i] == p[j + 1]) { j++; }
+		//	next[i] = j;
+		//}
+		//return next;
+
+		int len = p.length();
+		vector<int> next(len, -1);
+		int j = -1;
+		for (int i = 1; i < len; i++)
 		{
-			if (*needle != *hayStack)
+			while (j >= 0 && p[i] != p[j + 1])
 			{
-				return false;
+				j = next[j];
 			}
-			hayStack++;
-			needle++;
+			if (p[i] == p[j + 1]) { j++; }
+			next[i] = j;
 		}
-		return true;
+		return next;
 	}
 
-	int strStr(char *haystack, char *needle) 
-	{	
-		if (*needle == '\0') { return (*haystack == '\0') ? 0 : -1; }
-		int i = -1;
-		while (*haystack != '\0')
+	int strStr(string haystack, string needle)
+	{
+		/*vector<int> next = calcNextTable(needle);
+		int lenh = haystack.length();
+		int lenn = needle.length();
+		if (lenn == 0) { return 0; }
+		
+		int j = -1;
+		for (int i = 0; i < lenh; i++)
 		{
-			if (*haystack == *needle && match(haystack, needle))
+			while (j >= 0 && haystack[i] != needle[j + 1])
 			{
-				return i;
+				j = next[j];
 			}
-			haystack++;
-			i++;
+			if (haystack[i] == needle[j + 1])
+			{
+				j++;
+			}
+			if (j == lenn - 1)
+			{
+				return (i - lenn + 1);
+			}
 		}
-		return i;
+		return -1;*/
+
+		vector<int> next = calcNextTable(needle);
+		int lenh = haystack.length();
+		int lenn = needle.length();
+		if (lenn == 0) { return 0; }
+
+		int j = -1;
+		for (int i = 0; i < lenh; i++)
+		{
+			while (j >= 0 && haystack[i] != needle[j + 1])
+			{
+				j = next[j];
+			}
+			if (haystack[i] == needle[j + 1]) { j++; }
+			if (j + 1 == lenn)
+			{
+				return (i - len + 1);
+			}
+		}
+		return -1;
 	}
 
 	void ImplementStrStr()
 	{
-	
+		// Error: note that calcNextTable should return empty array when the pattern string is empty
+		print(strStr("", ""));
+
+		string pattern = "aabcdeaa";
+		print(pattern);
+		print(calcNextTable(pattern));
+
+		print(strStr("mississippi", "issi"));
 	}
 }
