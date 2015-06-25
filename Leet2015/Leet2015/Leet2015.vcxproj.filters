@@ -650,5 +650,8 @@
     <ClCompile Include="ShortestPalindrome.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="WordSearchII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -92,7 +92,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::InsertionSortList();
 	//Solution1::ZigZagConversion();
 	//Solution1::ContainerWithMostWater();
-	Solution1::ImplementStrStr();
+	//Solution1::ImplementStrStr();
 	//Solution1::Permutation();
 	//Solution1::PermutationII();
 	//Solution1::Pow();
@@ -218,6 +218,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::MaximalSquare();
 	//Solution1::LongestSubstringWithAtMostTwoDistinctCharacters();
 	//Solution1::ShortestPalindrome();
+	Solution1::WordSearchII();
 
 
 	// Runtime end marker

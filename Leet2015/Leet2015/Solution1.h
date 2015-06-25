@@ -314,5 +314,8 @@ namespace Solution1
 	void BasicCalculatorII();
 	void MaximalSquare();
 	void LongestSubstringWithAtMostTwoDistinctCharacters();
+	
+	// 6/24/2015
 	void ShortestPalindrome();
+	void WordSearchII();
 };

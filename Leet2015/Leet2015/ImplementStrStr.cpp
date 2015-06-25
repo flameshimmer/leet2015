@@ -78,10 +78,13 @@ namespace Solution1
 				{
 					j = next[j];
 				}
-				if (haystack[i] == needle[j + 1]) { j++; }
+				if (haystack[i] == needle[j + 1]) 
+				{ 
+					j++; 
+				}
 				if (j + 1 == lenn)
 				{
-					return (i - lenh + 1);
+					return (i - lenn + 1);
 				}
 			}
 			return -1;
@@ -121,7 +124,7 @@ namespace Solution1
 		{
 			while (j > 0 && haystack[i] != needle[j])
 			{
-				j = next[j-1]+1; ////?????
+				j = next[j-1];
 			}
 			if (haystack[i] == needle[j])
 			{			
@@ -130,13 +133,17 @@ namespace Solution1
 			i++;
 		}
 		
+		if (j == lenn)
+		{
+			return i - lenn;
+		}
+
 		return -1;
 	}
 
 
 	void ImplementStrStr()
 	{
-
 		string pattern = "issip";
 		print(pattern);
 		print(old::calcNextTable(pattern));
@@ -148,8 +155,5 @@ namespace Solution1
 		print(strStr("mississippi", "a"));
 		// Error: note that calcNextTable should return empty array when the pattern string is empty
 		print(strStr("", ""));
-
-
-		
 	}
 }
