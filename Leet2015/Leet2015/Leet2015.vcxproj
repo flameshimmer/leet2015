@@ -121,6 +121,7 @@
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicateII.cpp" />
+    <ClCompile Include="ContainsDuplicateIII.cpp" />
     <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp" />
     <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp" />
     <ClCompile Include="CopyListWithRandomPointer.cpp" />

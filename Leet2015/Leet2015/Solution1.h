@@ -317,5 +317,8 @@ namespace Solution1
 	
 	// 6/24/2015
 	void ShortestPalindrome();
+
+	// 6/24/2015
 	void WordSearchII();
+	void ContainsDuplicateIII();
 };

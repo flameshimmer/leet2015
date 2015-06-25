@@ -653,5 +653,8 @@
     <ClCompile Include="WordSearchII.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="ContainsDuplicateIII.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
