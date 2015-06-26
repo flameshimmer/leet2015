@@ -138,6 +138,23 @@ void print(vector<Interval> input)
 	cout << "[" << input[inputSize - 1].start << ", " << input[inputSize - 1].end << "]\n";
 }
 
+void print(vector<pair<int, int>> input)
+{
+	cout << "\nVector of pairs: \n";
+	int inputSize = input.size();
+	if (inputSize == 0) {
+		cout << "\n";
+		return;
+	}
+
+	for (int i = 0; i < inputSize - 1; i++)
+	{
+		cout << "(" << input[i].first << ", " << input[i].second << "), ";
+	}
+	cout << "(" << input[inputSize - 1].first << ", " << input[inputSize - 1].second << ")\n";
+}
+
+
 TreeNode* createTree(vector<int> data, int deliminator)
 {
 	int len = data.size();

@@ -276,6 +276,7 @@
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />
     <ClCompile Include="TextJustification.cpp" />
+    <ClCompile Include="TheSkylineProblem.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSumII.cpp" />

@@ -150,6 +150,9 @@ void printWithSpace(string input);
 // intervals
 void print(vector<Interval> input);
 
+// pairs
+void print(vector<pair<int, int>> input);
+
 // bits
 void printBits(uint32_t input);
 

@@ -662,5 +662,8 @@
     <ClCompile Include="SummaryRanges.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="TheSkylineProblem.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
