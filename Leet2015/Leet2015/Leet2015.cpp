@@ -219,7 +219,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::LongestSubstringWithAtMostTwoDistinctCharacters();
 	//Solution1::ShortestPalindrome();
 	//Solution1::WordSearchII();
-	Solution1::ContainsDuplicateIII();
+	//Solution1::ContainsDuplicateIII();
+	Solution1::DungeonGame();
 
 
 	// Runtime end marker

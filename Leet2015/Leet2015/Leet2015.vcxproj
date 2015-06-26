@@ -133,6 +133,7 @@
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="DungeonGame.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />

@@ -8,24 +8,25 @@ namespace Solution1
 	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t)
 	{
 		int len = nums.size();
-		if (k < 0 || t < 0 || len < 2) 
-		{ 
-			return false; 
+		if (k < 0 || t < 0 || len < 2)
+		{
+			return false;
 		}
 
-		set<int> record;
-
+		set<int> set;
 		for (int i = 0; i < len; i++)
 		{
-			if (i > k) { 
-				record.erase(nums[i - k - 1]); 
+			if (i > k)
+			{
+				set.erase(nums[i - 1 - k]);
 			}
-			auto lower = record.lower_bound(nums[i] - t);
-			if (lower != record.end() && abs(nums[i] - *lower) <= t)
+
+			auto lower = set.lower_bound(nums[i] - t);
+			if (lower != set.end() && abs(*lower - nums[i]) <= t)
 			{
 				return true;
 			}
-			record.insert(nums[i]);
+			set.insert(nums[i]);
 		}
 		return false;
 	}
