@@ -271,6 +271,7 @@
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="SudokuSolver.cpp" />
+    <ClCompile Include="SummaryRanges.cpp" />
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapNodesInPairs.cpp" />

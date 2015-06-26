@@ -321,5 +321,9 @@ namespace Solution1
 	// 6/24/2015
 	void WordSearchII();
 	void ContainsDuplicateIII();
+
+	//6/25/2015
 	void DungeonGame();
+	void SummaryRanges();
+	void TheSkylineProblem();
 };

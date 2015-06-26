@@ -43,49 +43,16 @@ namespace Solution1
 		int colCount = dungeon[0].size();
 		if (colCount == 0) { return 0; }
 
-		vector<vector<pair<int, int>>> M(colCount, vector<pair<int, int>>(rowCount));
-
-		int c = dungeon[0][0] < 0 ? dungeon[0][0] : 0;
-		int g = dungeon[0][0] < 0 ? 0 : dungeon[0][0];
-		M[0][0] = make_pair(c, g);
-
-		for (int i = 0; i < rowCount; i++)
+		vector<int> M(colCount + 1, INT_MAX);
+		M[colCount - 1] = 1;
+		for (int i = rowCount - 1; i >= 0; i--)
 		{
-			for (int j = 0; j < colCount; j++)
+			for (int j = colCount - 1; j >= 0; j--)
 			{
-				if (i == 0 && j == 0) { continue; }
-				int leftCost = (j >= 1) ? M[i][j - 1].first : INT_MIN;
-				int leftGain = (j >= 1) ? M[i][j - 1].second : 0;
-				int topCost = (i >= 1) ? M[i][j].first : INT_MIN;
-				int topGain = (i >= 1) ? M[i][j].second : 0;
-				int curCost = dungeon[i][j] >= 0 ? 0 : dungeon[i][j];
-				int curGain = dungeon[i][j] >= 0 ? dungeon[i][j] : 0;
-
-				int minCost = max(leftCost, topCost);
-				int maxGain = (minCost == leftCost) ? leftGain : topGain;
-
-				M[i][j] = make_pair(minCost + curCost, maxGain + curGain);
+				M[j] = max(1, min(M[j], M[j + 1]) - dungeon[i][j]);
 			}
 		}
-
-		int i = 0;
-		int j = 0;
-		while (i != rowCount && j != colCount)
-		{
-			if (M[i][j + 1].first > M[i + 1][j].first && j+1)
-		}
-
-
-
-		int cost = M[j].first;
-		int gain = M[j].second;
-		int diff = cost + gain;
-		if (diff < 0)
-		{
-			result = max(cost, 1 - diff);
-		}
-
-		return result;
+		return M[0];
 	}
 
 	void DungeonGame()

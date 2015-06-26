@@ -659,5 +659,8 @@
     <ClCompile Include="DungeonGame.cpp">
       <Filter>Solution1</Filter>
     </ClCompile>
+    <ClCompile Include="SummaryRanges.cpp">
+      <Filter>Solution1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

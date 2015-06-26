@@ -220,7 +220,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ShortestPalindrome();
 	//Solution1::WordSearchII();
 	//Solution1::ContainsDuplicateIII();
-	Solution1::DungeonGame();
+	//Solution1::DungeonGame();
+	//Solution1::SummaryRanges();
+	Solution1::TheSkylineProblem();
 
 
 	// Runtime end marker
