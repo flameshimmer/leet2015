@@ -257,8 +257,6 @@ namespace Solution1
 
 	//5/16/2015
 	void SurroundedRegions();
-	void WordLadder();
-	//void WordLadderII(); didn't finish
 	void FindPeakElement();
 
 	//5/17/2015
@@ -325,5 +323,9 @@ namespace Solution1
 	//6/25/2015
 	void DungeonGame();
 	void SummaryRanges();
+
+	// 6/26/2015
 	void TheSkylineProblem();
+	void WordLadder();
+	void WordLadderII();
 };

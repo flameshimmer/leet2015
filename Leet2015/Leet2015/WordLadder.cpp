@@ -21,130 +21,101 @@
 
 namespace Solution1
 {
-	vector<string> getCandidates(string target, unordered_set<string>& wordDict)
+	vector<string> getChildren(unordered_set<string>& wordDict, string target)
 	{
-		vector<string> list;
-		
-		for (int i = 0; i < target.size(); i++)
+		vector<string> result;
+		int len = target.length();
+		for (int i = 0; i < len; i++)
 		{
+			string cur = target;
 			char c = target[i];
 			for (int j = 0; j < 26; j++)
 			{
-				char x = 'a' + j;
-				if (x == target[i]){ continue; }
-				target[i] = x;
-				if (wordDict.count(target) != 0)
+				char n = 'a' + j;
+				if (n != c)
 				{
-					list.push_back(target);
-					wordDict.erase(target);
+					cur[i] = n;
+					if (wordDict.find(cur) != wordDict.end())
+					{
+						result.push_back(cur);
+					}
 				}
 			}
-			target[i] = c;
+			cur[i] = c;
 		}
-		return list;
+		return result;
 	}
-	
-	int ladderLength(string beginWord, string endWord, unordered_set<string>& wordDict) 
-	{
-		wordDict.insert(endWord);
-		int result = 1;
-		queue<string> q;
-		q.push(beginWord);
-		int count = 1;
-		int pushedCount = 0;
-		
-		while (!q.empty())
-		{
-			string cur = q.front();			
-			if (cur == endWord)
-			{
-				return result;
-			}
-			q.pop();
 
-			vector<string> list = getCandidates(cur, wordDict);
-			for (string str : list)
+	int ladderLength(string beginWord, string endWord, unordered_set<string>& wordDict) {
+ 		int result = 2;
+		
+		unordered_set<string> s1;
+		s1.insert(beginWord);
+		unordered_set<string> s2;
+		s2.insert(endWord);
+		unordered_set<string> resultSet;
+		wordDict.insert(beginWord);
+		wordDict.insert(endWord);
+
+		while (!wordDict.empty() && s1.size() > 0 && s2.size() > 0)
+		{
+			if (s1.size() > s2.size())
 			{
-				q.push(str);
-				pushedCount++;
+				swap(s1, s2);
 			}
-			count--;
-			if (count == 0)
+			for (string target : s1)
 			{
-				count = pushedCount;
-				pushedCount = 0;
-				result++;
-				cout << result << "\n";
+				vector<string> children = getChildren(wordDict, target);
+				for (string child : children)
+				{
+					if (s2.find(child) != s2.end())
+					{
+						return result;
+					}
+					resultSet.insert(child);					
+				}
+				wordDict.erase(target);
 			}
+			result++;
+
+			swap(s1, resultSet);
+			resultSet.clear();
 		}
 		return 0;
 	}
 
-
-	namespace twoEnd
-	{
-		int ladderLength(string start, string end, unordered_set<string> &dict) 
-		{
-			unordered_set<string> begSet, endSet, *set1, *set2;
-			begSet.insert(start);
-			endSet.insert(end);
-			int h = 1;
-			int wordLen= start.size();
-
-			while (!begSet.empty() && !endSet.empty())
-			{
-				if (begSet.size() <= endSet.size())
-				{
-					set1 = &begSet;
-					set2 = &endSet;
-				}
-				else
-				{
-					set1 = &endSet;
-					set2 = &begSet;
-				}
-
-				unordered_set<string> itemSet;
-				h++;
-				for (string cur : *set1)
-				{
-					for (int i = 0; i < wordLen; i++)
-					{
-						char c = cur[i];
-						for (int j = 0; j < 26; j++)
-						{
-							cur[i] = 'a' + j;
-							if (set2->find(cur) != set2->end())
-							{
-								return h;
-							}
-							if (dict.find(cur) != dict.end())
-							{
-								itemSet.insert(cur);
-								dict.erase(cur);
-							}
-						}
-						cur[i] = c;
-					}
-				}
-				swap(*set1, itemSet);
-			}
-			return 0;
-		}
-	}
-
-
 	void WordLadder()
 	{
+		string start;
+		string end;
+		unordered_set<string> dict;
+
 		//string start = "a";
 		//string end = "c";
 		//unordered_set<string> dict = { "a","b", "c" };
 		//print(twoEnd::ladderLength(start, end, dict));
 
-		string start = "hit";
-		string end = "cog";
-		unordered_set<string> dict = { "hot", "dot", "dog", "lot", "log" };
-		print(twoEnd::ladderLength(start, end, dict));
+		start = "kiss";
+		end = "tusk";
+		dict = unordered_set<string>({ "miss", "dusk", "kiss", "musk", "tusk", "diss", "disk", "sang", "ties", "muss" });
+		print(ladderLength(start, end, dict));
+
+		start = "game";
+		end = "thee";
+		dict = unordered_set<string>({ "frye", "heat", "tree", "thee", "game", "free", "hell", "fame", "faye" });
+		print(ladderLength(start, end, dict));
+
+		start = "hot";
+		end = "dog";
+		dict = unordered_set<string>({ "hot", "dog"});
+		print(ladderLength(start, end, dict));
+
+
+		start = "hot";
+		end = "cog";
+		dict = unordered_set<string>({ "hot", "dot", "dog", "lot", "log" });
+		print(ladderLength(start, end, dict));
+
 
 
 		//string start2 = "sand";

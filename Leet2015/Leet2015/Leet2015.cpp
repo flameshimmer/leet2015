@@ -180,8 +180,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::TwoSumII();
 	//Solution1::TwoSumIII();
 	//Solution1::SurroundedRegions();
-	//Solution1::WordLadder();
-	//Solution1::WordLadderII();
 	//Solution1::FindPeakElement();
 	//Solution1::EvaluateReversePolishNotation();
 	//Solution1::BestTimeToBuyAndSellStock();
@@ -222,7 +220,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::ContainsDuplicateIII();
 	//Solution1::DungeonGame();
 	//Solution1::SummaryRanges();
-	Solution1::TheSkylineProblem();
+	//Solution1::TheSkylineProblem();
+	Solution1::WordLadder();
+	//Solution1::WordLadderII();
 
 
 	// Runtime end marker

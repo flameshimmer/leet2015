@@ -21,9 +21,46 @@
 
 namespace Solution1
 {
+	vector<string> getChildren(unordered_set<string>& dict, string target)
+	{
+		vector<string> result;
+
+		for (int i = 0; i < target.length(); i++)
+		{
+			string cur = target;
+			char c = target[i];
+			for (int j = 0; j < 26; j++)
+			{
+				char n = j + 'a';
+				if (n != c)
+				{
+					cur[i] = n;
+					if (dict.find(cur) != dict.end())
+					{
+						result.push_back(cur);
+					}
+				}				
+			}
+			cur[i] = c;
+		}
+		return result;
+	}
+
+
 	vector<vector<string>> findLadders(string beginWord, string endWord, unordered_set<string>& wordDict)
 	{
 		vector<vector<string>> results;
+		wordDict.insert(beginWord);
+		wordDict.insert(endWord);
+		
+		queue<string> q;
+		q.push(beginWord);
+		while (!q.empty())
+		{
+			string cur = q.front();
+			vector<string>
+		}
+
 		return results;
 	}
 
