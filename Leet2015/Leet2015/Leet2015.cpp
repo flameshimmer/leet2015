@@ -221,8 +221,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution1::DungeonGame();
 	//Solution1::SummaryRanges();
 	//Solution1::TheSkylineProblem();
-	Solution1::WordLadder();
-	//Solution1::WordLadderII();
+	//Solution1::WordLadder();
+	Solution1::WordLadderII();
 
 
 	// Runtime end marker
